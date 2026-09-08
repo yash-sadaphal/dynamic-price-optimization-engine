@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Dynamic Price Optimization Engine using AI & Machine Learning
 ### Applied Machine Learning for Industry Solutions Laboratory Project
 
@@ -103,7 +104,7 @@ dynamic_price_optimization/
 ├── requirements.txt            # Python dependencies
 ├── README.md                   # Project documentation & viva guide
 ├── test_app.py                 # Multi-user automated test suite
-├── .env                        # Environment variables (MySQL credentials: root / yash@123)
+├── .env                        # Environment variables (MySQL credentials: root / MYSQL_PASSWORD=<your_mysql_password>
 │
 ├── models/
 │   ├── price_model.pkl         # Serialized Scikit-learn Random Forest model & scaler
@@ -197,7 +198,7 @@ Your `.env` is pre-configured with:
 MYSQL_HOST=localhost
 MYSQL_PORT=3306
 MYSQL_USER=root
-MYSQL_PASSWORD=yash@123
+MYSQL_PASSWORD=MYSQL_PASSWORD=<your_mysql_password>@123
 MYSQL_DB=dynamic_price_db
 ```
 
@@ -260,3 +261,7 @@ OK
 > **Answer:** The engine uses a Random Forest Regressor trained on pricing features: cost price, current price, competitor price, demand level, inventory level, season, and sales velocity. It balances competitor benchmarks and demand elasticity, then applies business guardrails:
 > 1. **Profit Floor Guardrail:** Price $\ge \text{Cost Price} \times 1.12$ (guaranteeing at least 12% gross profit margin).
 > 2. **Volatility Cap Guardrail:** Price changes are capped to $\pm 25\%$ of current price to avoid customer sticker shock.
+=======
+# dynamic-price-optimization-engine
+dynamic-price-optimization-engine an AMLIS project to predict the optimize price
+>>>>>>> b07eca71d48b0a9c60611fb4dc9222b5ffcbb6cc
