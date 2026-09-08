@@ -1,0 +1,244 @@
+{% extends "base.html" %}
+
+{% block title %}Dynamic Price Optimization{% endblock %}
+{% block page_title %}AI-Powered Dynamic Price Optimization Engine{% endblock %}
+
+{% block content %}
+<div class="row g-4 mb-4">
+    <!-- Left Column: Product Selector & Active State -->
+    <div class="col-lg-5">
+        <div class="content-card">
+            <div class="content-card-header">
+                <h5><i class="fa-solid fa-crosshairs text-primary"></i> 1. Select Product to Optimize</h5>
+            </div>
+            <div class="content-card-body">
+                {% if products|length == 0 %}
+                <div class="alert alert-info small mb-3">
+                    <i class="fa-solid fa-circle-info me-1"></i> No products found in your catalog. <a href="{{ url_for('products') }}" class="fw-semibold">Add a product</a> to get started.
+                </div>
+                {% endif %}
+                <form method="GET" action="{{ url_for('pricing') }}" class="mb-4">
+                    <label class="form-label fw-medium">Choose Product from Catalog</label>
+                    <div class="input-group">
+                        <select name="product_id" class="form-select" onchange="this.form.submit()">
+                            <option value="">-- Choose a Product --</option>
+                            {% for p in products %}
+                            <option value="{{ p.id }}" {% if selected_prod and selected_prod.id == p.id %}selected{% endif %}>
+                                {{ p.name }} (${{ "{:.2f}".format(p.current_price) }})
+                            </option>
+                            {% endfor %}
+                        </select>
+                        <button class="btn btn-outline-secondary" type="submit">Select</button>
+                    </div>
+                </form>
+
+                {% if selected_prod %}
+                <div class="border rounded p-3 bg-light mb-3">
+                    <h6 class="fw-bold text-dark mb-3">{{ selected_prod.name }}</h6>
+                    
+                    <div class="d-flex justify-content-between py-1 border-bottom">
+                        <span class="text-muted">Category:</span>
+                        <span class="fw-medium">{{ selected_prod.category }}</span>
+                    </div>
+                    <div class="d-flex justify-content-between py-1 border-bottom">
+                        <span class="text-muted">Procurement Cost Floor:</span>
+                        <span class="fw-bold text-danger">${{ "{:.2f}".format(selected_prod.cost_price) }}</span>
+                    </div>
+                    <div class="d-flex justify-content-between py-1 border-bottom">
+                        <span class="text-muted">Base Catalog Price:</span>
+                        <span class="fw-medium">${{ "{:.2f}".format(selected_prod.base_price) }}</span>
+                    </div>
+                    <div class="d-flex justify-content-between py-1 border-bottom">
+                        <span class="text-muted">Current Active Price:</span>
+                        <span class="fw-bold text-primary">${{ "{:.2f}".format(selected_prod.current_price) }}</span>
+                    </div>
+                    
+                    <div class="d-flex justify-content-between py-1 border-bottom">
+                        <span class="text-muted">Competitor Market Price:</span>
+                        <span class="fw-medium text-warning-emphasis">
+                            ${{ "{:.2f}".format(selected_market.competitor_price if selected_market else selected_prod.current_price) }}
+                        </span>
+                    </div>
+                    <div class="d-flex justify-content-between py-1 border-bottom">
+                        <span class="text-muted">Current Stock Inventory:</span>
+                        <span class="fw-medium">{{ selected_market.inventory_level if selected_market else 50 }} units</span>
+                    </div>
+                    <div class="d-flex justify-content-between py-1">
+                        <span class="text-muted">Demand Level:</span>
+                        <span class="fw-bold">
+                            {% if selected_market and selected_market.demand_level == 3 %}
+                                <span class="text-warning"><i class="fa-solid fa-fire me-1"></i>High Demand</span>
+                            {% elif selected_market and selected_market.demand_level == 1 %}
+                                <span class="text-secondary">Low Demand</span>
+                            {% else %}
+                                <span class="text-info">Medium Demand</span>
+                            {% endif %}
+                        </span>
+                    </div>
+                </div>
+
+                <!-- Run AI Recommendation Form Button -->
+                <form action="{{ url_for('recommend_price_action', product_id=selected_prod.id) }}" method="POST">
+                    <button type="submit" class="btn btn-primary w-100 py-2 fw-semibold">
+                        <i class="fa-solid fa-wand-magic-sparkles me-2"></i>Run AI Price Optimization
+                    </button>
+                </form>
+                {% else %}
+                <div class="text-center py-4 text-muted">
+                    <i class="fa-solid fa-arrow-pointer fa-2x mb-2 text-primary opacity-50"></i>
+                    <p class="mb-0">Please select a product above to inspect market signals and run the ML optimization engine.</p>
+                </div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+
+    <!-- Right Column: AI Optimization Result & Action -->
+    <div class="col-lg-7">
+        <div class="content-card">
+            <div class="content-card-header">
+                <h5><i class="fa-solid fa-microchip text-primary"></i> 2. Optimization Analysis & Recommendation</h5>
+                {% if latest_rec %}
+                <span class="badge {% if latest_rec.status == 'Applied' %}bg-success-subtle text-success{% else %}bg-warning-subtle text-warning{% endif %} border">
+                    {{ latest_rec.status }}
+                </span>
+                {% endif %}
+            </div>
+            <div class="content-card-body">
+                {% if selected_prod and latest_rec %}
+                <div class="row g-3 text-center mb-4">
+                    <div class="col-md-4">
+                        <div class="p-3 border rounded bg-light">
+                            <div class="text-muted small">Current Price</div>
+                            <h3 class="fw-bold text-dark mt-1">${{ "{:.2f}".format(latest_rec.current_price) }}</h3>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="p-3 border rounded bg-primary-subtle border-primary-subtle">
+                            <div class="text-primary small fw-semibold">AI Recommended</div>
+                            <h3 class="fw-bold text-primary mt-1">${{ "{:.2f}".format(latest_rec.recommended_price) }}</h3>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="p-3 border rounded bg-light">
+                            <div class="text-muted small">Net Variance</div>
+                            <h3 class="fw-bold mt-1 {% if latest_rec.price_difference > 0 %}text-success{% elif latest_rec.price_difference < 0 %}text-danger{% else %}text-secondary{% endif %}">
+                                {{ "{:+.2f}".format(latest_rec.price_difference) }}
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Viva-Ready AI Business Rationale -->
+                <div class="recommendation-box mb-4">
+                    <h6 class="fw-bold text-primary mb-2">
+                        <i class="fa-solid fa-lightbulb text-warning me-2"></i>AI Pricing Rationale (Explainable AI)
+                    </h6>
+                    <p class="mb-2 text-dark">{{ latest_rec.reason }}</p>
+                    <div class="d-flex align-items-center gap-3 mt-3 pt-2 border-top border-indigo-subtle">
+                        <small class="text-muted">
+                            <i class="fa-solid fa-shield-halved text-success me-1"></i> Guardrail Verified: Profit Margin Guaranteed
+                        </small>
+                        <small class="text-muted">
+                            <i class="fa-solid fa-calendar-days text-secondary me-1"></i> Generated: {{ latest_rec.generated_at.strftime('%b %d, %H:%M') }}
+                        </small>
+                    </div>
+                </div>
+
+                <!-- 1-Click Apply Action Button -->
+                {% if latest_rec.status == 'Pending' %}
+                <form action="{{ url_for('apply_price_action', rec_id=latest_rec.id) }}" method="POST">
+                    <button type="submit" class="btn btn-success w-100 py-3 fw-bold fs-6">
+                        <i class="fa-solid fa-check-double me-2"></i>Apply Recommended Price (${{ "{:.2f}".format(latest_rec.recommended_price) }}) to Active Catalog
+                    </button>
+                </form>
+                {% else %}
+                <div class="alert alert-success d-flex align-items-center mb-0">
+                    <i class="fa-solid fa-circle-check fs-4 me-3"></i>
+                    <div>
+                        <strong>Price Active in Catalog:</strong> The recommended price of 
+                        <strong>${{ "{:.2f}".format(latest_rec.recommended_price) }}</strong> has been applied to this product.
+                    </div>
+                </div>
+                {% endif %}
+
+                {% else %}
+                <div class="text-center py-5 text-muted">
+                    <i class="fa-solid fa-chart-line fa-3x mb-3 text-secondary opacity-25"></i>
+                    <h5>No Recommendation Selected Yet</h5>
+                    <p class="mb-0">Select a product from the left and click <strong>"Run AI Price Optimization"</strong> to evaluate optimal pricing.</p>
+                </div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- All Recommendations Log -->
+<div class="content-card">
+    <div class="content-card-header">
+        <h5><i class="fa-solid fa-clock-rotate-left text-primary"></i> Price Optimization History & Audit Trail</h5>
+        <span class="badge bg-light text-dark border">{{ all_recs|length }} Recommendations</span>
+    </div>
+    <div class="content-card-body p-0">
+        <div class="table-responsive">
+            <table class="table custom-table mb-0">
+                <thead>
+                    <tr>
+                        <th>Generated</th>
+                        <th>Product</th>
+                        <th>Current Price</th>
+                        <th>Recommended Price</th>
+                        <th>Difference</th>
+                        <th>AI Rationale</th>
+                        <th>Status</th>
+                        <th class="text-end">Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for rec in all_recs %}
+                    <tr>
+                        <td class="text-muted small">{{ rec.generated_at.strftime('%Y-%m-%d %H:%M') }}</td>
+                        <td class="fw-semibold text-dark">{{ rec.product.name if rec.product else 'N/A' }}</td>
+                        <td>${{ "{:.2f}".format(rec.current_price) }}</td>
+                        <td class="fw-bold text-primary">${{ "{:.2f}".format(rec.recommended_price) }}</td>
+                        <td>
+                            {% if rec.price_difference > 0 %}
+                                <span class="price-up"><i class="fa-solid fa-arrow-up-long me-1"></i>+${{ "{:.2f}".format(rec.price_difference) }}</span>
+                            {% elif rec.price_difference < 0 %}
+                                <span class="price-down"><i class="fa-solid fa-arrow-down-long me-1"></i>-${{ "{:.2f}".format(rec.price_difference|abs) }}</span>
+                            {% else %}
+                                <span class="price-neutral">$0.00</span>
+                            {% endif %}
+                        </td>
+                        <td class="small text-muted" style="max-width: 250px;">{{ rec.reason }}</td>
+                        <td>
+                            {% if rec.status == 'Applied' %}
+                                <span class="badge bg-success-subtle text-success border">Applied</span>
+                            {% else %}
+                                <span class="badge bg-warning-subtle text-warning border">Pending</span>
+                            {% endif %}
+                        </td>
+                        <td class="text-end">
+                            {% if rec.status == 'Pending' %}
+                            <form action="{{ url_for('apply_price_action', rec_id=rec.id) }}" method="POST" style="display:inline;">
+                                <button type="submit" class="btn btn-sm btn-outline-success">
+                                    <i class="fa-solid fa-check me-1"></i>Apply
+                                </button>
+                            </form>
+                            {% else %}
+                                <span class="text-muted small"><i class="fa-solid fa-circle-check text-success"></i> Active</span>
+                            {% endif %}
+                        </td>
+                    </tr>
+                    {% else %}
+                    <tr>
+                        <td colspan="8" class="text-center py-4 text-muted">No recommendations generated yet.</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+{% endblock %}

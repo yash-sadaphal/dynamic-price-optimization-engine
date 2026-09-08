@@ -1,0 +1,31 @@
+{
+    "linear_regression": {
+        "mae": 2.37,
+        "rmse": 3.39,
+        "r2_score": 0.9942
+    },
+    "random_forest": {
+        "mae": 1.75,
+        "rmse": 3.23,
+        "r2_score": 0.9947,
+        "feature_importance": {
+            "cost_price": 0.2668,
+            "current_price": 0.1091,
+            "competitor_price": 0.6165,
+            "demand_level": 0.0015,
+            "inventory_level": 0.0017,
+            "season": 0.0003,
+            "quantity_sold": 0.0042
+        }
+    },
+    "trained_samples": 800,
+    "features": [
+        "cost_price",
+        "current_price",
+        "competitor_price",
+        "demand_level",
+        "inventory_level",
+        "season",
+        "quantity_sold"
+    ]
+}

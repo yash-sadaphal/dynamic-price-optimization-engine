@@ -1,0 +1,65 @@
+{% extends "base.html" %}
+
+{% block title %}Register{% endblock %}
+{% block page_title %}Create Your Account{% endblock %}
+
+{% block content %}
+<div class="row justify-content-center align-items-center" style="min-height: 70vh;">
+    <div class="col-md-6 col-lg-5">
+        <div class="content-card shadow-lg border-0">
+            <div class="content-card-header bg-white border-bottom text-center py-4">
+                <div class="mb-2">
+                    <i class="fa-solid fa-user-shield text-primary fa-2x"></i>
+                </div>
+                <h4 class="fw-bold text-dark mb-1">Create Account</h4>
+                <p class="text-muted small mb-0">Register to manage your isolated catalog and dynamic pricing models</p>
+            </div>
+            
+            <div class="content-card-body p-4">
+                <form action="{{ url_for('register') }}" method="POST">
+                    <div class="mb-3">
+                        <label class="form-label fw-medium">Username</label>
+                        <div class="input-group">
+                            <span class="input-group-text bg-light"><i class="fa-solid fa-at text-muted"></i></span>
+                            <input type="text" name="username" class="form-control" placeholder="e.g. retail_manager" required autofocus>
+                        </div>
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label fw-medium">Email Address</label>
+                        <div class="input-group">
+                            <span class="input-group-text bg-light"><i class="fa-solid fa-envelope text-muted"></i></span>
+                            <input type="email" name="email" class="form-control" placeholder="name@company.com" required>
+                        </div>
+                    </div>
+
+                    <div class="row g-3 mb-4">
+                        <div class="col-md-6">
+                            <label class="form-label fw-medium">Password</label>
+                            <div class="input-group">
+                                <span class="input-group-text bg-light"><i class="fa-solid fa-key text-muted"></i></span>
+                                <input type="password" name="password" class="form-control" placeholder="Min 6 chars" required minlength="6">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label fw-medium">Confirm Password</label>
+                            <div class="input-group">
+                                <span class="input-group-text bg-light"><i class="fa-solid fa-check text-muted"></i></span>
+                                <input type="password" name="confirm_password" class="form-control" placeholder="Re-enter password" required minlength="6">
+                            </div>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary w-100 py-2 fw-semibold">
+                        <i class="fa-solid fa-user-plus me-2"></i>Create Account
+                    </button>
+                </form>
+
+                <div class="mt-4 pt-3 border-top text-center">
+                    <p class="text-muted small mb-0">Already have an account? <a href="{{ url_for('login') }}" class="fw-semibold text-primary">Sign in here</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

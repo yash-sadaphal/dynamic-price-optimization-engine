@@ -1,0 +1,145 @@
+{% extends "base.html" %}
+
+{% block title %}Reports & Analytics{% endblock %}
+{% block page_title %}Analytics, Price Trends & Model Performance Reports{% endblock %}
+
+{% block content %}
+<div class="row g-4 mb-4">
+    <!-- Chart: Current vs Competitor vs Recommended Price Comparison -->
+    <div class="col-12">
+        <div class="content-card mb-0">
+            <div class="content-card-header">
+                <h5><i class="fa-solid fa-chart-column text-primary"></i> Market Price Benchmarking: Current vs Competitor vs AI Recommended</h5>
+                <span class="badge bg-light text-dark border">Catalog Multi-Item View</span>
+            </div>
+            <div class="content-card-body">
+                <div style="height: 350px; position: relative;">
+                    <canvas id="priceComparisonChart"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row g-4 mb-4">
+    <!-- Chart: Sales Velocity & Revenue -->
+    <div class="col-lg-8">
+        <div class="content-card mb-0 h-100">
+            <div class="content-card-header">
+                <h5><i class="fa-solid fa-arrow-trend-up text-success"></i> Sales Revenue Velocity Over Time</h5>
+                <span class="badge bg-light text-dark border">Timeline</span>
+            </div>
+            <div class="content-card-body">
+                <div style="height: 300px; position: relative;">
+                    <canvas id="salesTrendsChart"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Category Distribution -->
+    <div class="col-lg-4">
+        <div class="content-card mb-0 h-100">
+            <div class="content-card-header">
+                <h5><i class="fa-solid fa-pie-chart text-info"></i> Category Distribution</h5>
+            </div>
+            <div class="content-card-body d-flex align-items-center justify-content-center">
+                <div style="height: 270px; width: 100%; position: relative;">
+                    <canvas id="categoryChart"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Machine Learning Model Evaluation Report (Viva Ready) -->
+{% if metrics %}
+<div class="content-card">
+    <div class="content-card-header">
+        <h5><i class="fa-solid fa-award text-warning"></i> Machine Learning Laboratory Model Evaluation (Viva Presentation)</h5>
+        <span class="badge bg-primary-subtle text-primary border">Scikit-learn</span>
+    </div>
+    <div class="content-card-body">
+        <div class="row g-4">
+            <!-- Model Performance Comparison Table -->
+            <div class="col-lg-6">
+                <h6 class="fw-bold text-dark mb-3"><i class="fa-solid fa-scale-balanced me-2 text-primary"></i>Model Comparison: Baseline vs Champion</h6>
+                <div class="table-responsive">
+                    <table class="table custom-table">
+                        <thead>
+                            <tr>
+                                <th>Model Architecture</th>
+                                <th>R² Score (Accuracy)</th>
+                                <th>MAE</th>
+                                <th>RMSE</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Linear Regression (Baseline)</td>
+                                <td>{{ (metrics.linear_regression.r2_score * 100)|round(2) }}%</td>
+                                <td>${{ metrics.linear_regression.mae }}</td>
+                                <td>${{ metrics.linear_regression.rmse }}</td>
+                            </tr>
+                            <tr class="table-success">
+                                <td class="fw-bold"><i class="fa-solid fa-crown text-warning me-1"></i> Random Forest (Champion)</td>
+                                <td class="fw-bold text-success">{{ (metrics.random_forest.r2_score * 100)|round(2) }}%</td>
+                                <td class="fw-bold">${{ metrics.random_forest.mae }}</td>
+                                <td class="fw-bold">${{ metrics.random_forest.rmse }}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="p-3 bg-light rounded border mt-2 small text-muted">
+                    <strong>Viva Explanation:</strong> Random Forest Regressor achieves superior accuracy because it naturally models non-linear interactions between competitor undercutting, inventory scarcity thresholds, and seasonal demand surges.
+                </div>
+            </div>
+
+            <!-- Feature Importance Breakdown -->
+            <div class="col-lg-6">
+                <h6 class="fw-bold text-dark mb-3"><i class="fa-solid fa-brain me-2 text-primary"></i>Random Forest Feature Importance</h6>
+                <div class="table-responsive">
+                    <table class="table custom-table">
+                        <thead>
+                            <tr>
+                                <th>Feature Name</th>
+                                <th>Impact Weight</th>
+                                <th>Industry Significance</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% if metrics.random_forest.feature_importance %}
+                            {% for feat, weight in metrics.random_forest.feature_importance.items() %}
+                            <tr>
+                                <td class="fw-medium text-dark">{{ feat }}</td>
+                                <td>
+                                    <div class="d-flex align-items-center gap-2">
+                                        <div class="progress flex-grow-1" style="height: 6px;">
+                                            <div class="progress-bar bg-primary" role="progressbar" style="width: {{ (weight * 100)|round(1) }}%;"></div>
+                                        </div>
+                                        <span class="small fw-semibold">{{ (weight * 100)|round(1) }}%</span>
+                                    </div>
+                                </td>
+                                <td class="small text-muted">
+                                    {% if feat == 'competitor_price' %}External market anchor
+                                    {% elif feat == 'cost_price' %}Fundamental margin floor
+                                    {% elif feat == 'current_price' %}Catalog baseline
+                                    {% elif feat == 'inventory_level' %}Supply scarcity elasticity
+                                    {% elif feat == 'demand_level' %}Consumer willingness to pay
+                                    {% elif feat == 'quantity_sold' %}Sales velocity
+                                    {% else %}Seasonal timing
+                                    {% endif %}
+                                </td>
+                            </tr>
+                            {% endfor %}
+                            {% endif %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endif %}
+
+{% endblock %}

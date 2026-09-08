@@ -1,0 +1,262 @@
+{% extends "base.html" %}
+
+{% block title %}My Dashboard{% endblock %}
+{% block page_title %}My Business Dashboard & Pricing Insights{% endblock %}
+
+{% block content %}
+<!-- Onboarding Empty State Banner if user has no products yet -->
+{% if total_products == 0 %}
+<div class="content-card border-primary border-2 mb-4">
+    <div class="content-card-body p-4 text-center">
+        <div class="mb-3">
+            <i class="fa-solid fa-store fa-3x text-primary"></i>
+        </div>
+        <h4 class="fw-bold text-dark">Welcome to your Dynamic Pricing Engine, {{ session.get('username') }}!</h4>
+        <p class="text-muted col-lg-7 mx-auto mb-4">
+            Your account is ready in MySQL. You can start by adding your real products and entering your actual sales and market conditions, or load a starter demo catalog to explore.
+        </p>
+        <div class="d-flex justify-content-center gap-3">
+            <a href="{{ url_for('products') }}" class="btn btn-primary px-4 py-2">
+                <i class="fa-solid fa-plus me-1"></i> Add My First Product
+            </a>
+            <form action="{{ url_for('load_user_demo_data') }}" method="POST">
+                <button type="submit" class="btn btn-outline-secondary px-4 py-2">
+                    <i class="fa-solid fa-cloud-arrow-down me-1"></i> Load Starter Demo Catalog
+                </button>
+            </form>
+        </div>
+    </div>
+</div>
+{% endif %}
+
+<!-- Top KPI Cards Row -->
+<div class="row g-4 mb-4">
+    <!-- Total Products -->
+    <div class="col-xl-3 col-md-6">
+        <div class="stat-card">
+            <div>
+                <div class="stat-title">My Products</div>
+                <h3 class="stat-value">{{ total_products }}</h3>
+                <small class="text-muted"><i class="fa-solid fa-layer-group text-primary me-1"></i> In Your Catalog</small>
+            </div>
+            <div class="stat-icon-box stat-icon-indigo">
+                <i class="fa-solid fa-boxes-stacked"></i>
+            </div>
+        </div>
+    </div>
+
+    <!-- Total Sales Revenue -->
+    <div class="col-xl-3 col-md-6">
+        <div class="stat-card">
+            <div>
+                <div class="stat-title">Total Sales Revenue</div>
+                <h3 class="stat-value">${{ "{:,.2f}".format(total_revenue) }}</h3>
+                <small class="text-success fw-medium"><i class="fa-solid fa-arrow-trend-up me-1"></i> Real Logged Revenue</small>
+            </div>
+            <div class="stat-icon-box stat-icon-emerald">
+                <i class="fa-solid fa-sack-dollar"></i>
+            </div>
+        </div>
+    </div>
+
+    <!-- Total Units Sold -->
+    <div class="col-xl-3 col-md-6">
+        <div class="stat-card">
+            <div>
+                <div class="stat-title">Units Sold</div>
+                <h3 class="stat-value">{{ "{:,}".format(total_units_sold) }}</h3>
+                <small class="text-muted"><i class="fa-solid fa-cart-shopping text-info me-1"></i> Across Your Items</small>
+            </div>
+            <div class="stat-icon-box stat-icon-cyan">
+                <i class="fa-solid fa-chart-simple"></i>
+            </div>
+        </div>
+    </div>
+
+    <!-- Average Catalog Price -->
+    <div class="col-xl-3 col-md-6">
+        <div class="stat-card">
+            <div>
+                <div class="stat-title">Average Selling Price</div>
+                <h3 class="stat-value">${{ "{:.2f}".format(avg_price) }}</h3>
+                <small class="text-warning fw-medium"><i class="fa-solid fa-bell me-1"></i> {{ pending_recs }} Pending Recs</small>
+            </div>
+            <div class="stat-icon-box stat-icon-amber">
+                <i class="fa-solid fa-tags"></i>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Charts Row: Sales Revenue Trend & Price Comparison -->
+<div class="row g-4 mb-4">
+    <div class="col-lg-8">
+        <div class="content-card mb-0 h-100">
+            <div class="content-card-header">
+                <h5><i class="fa-solid fa-chart-line text-primary"></i> My Sales & Revenue Timeline</h5>
+                <span class="badge bg-light text-secondary border">Real-time MySQL Sync</span>
+            </div>
+            <div class="content-card-body">
+                <div style="height: 300px; position: relative;">
+                    <canvas id="salesTrendsChart"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-lg-4">
+        <div class="content-card mb-0 h-100">
+            <div class="content-card-header">
+                <h5><i class="fa-solid fa-pie-chart text-info"></i> Category Distribution</h5>
+                <span class="badge bg-light text-secondary border">Catalog Share</span>
+            </div>
+            <div class="content-card-body d-flex align-items-center justify-content-center">
+                <div style="height: 270px; width: 100%; position: relative;">
+                    <canvas id="categoryChart"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Machine Learning Model Status Card -->
+<div class="content-card mb-4">
+    <div class="content-card-header bg-light">
+        <h5><i class="fa-solid fa-brain text-primary"></i> Machine Learning Architecture & Adaptive Training Status</h5>
+        <a href="{{ url_for('pricing') }}" class="btn btn-sm btn-primary">
+            <i class="fa-solid fa-sliders me-1"></i> Optimize Prices Now
+        </a>
+    </div>
+    <div class="content-card-body py-3">
+        <div class="row text-center g-3 align-items-center">
+            <div class="col-md-3 border-end">
+                <div class="text-muted small">Current ML Model</div>
+                <div class="fw-bold text-dark fs-6 mt-1">Random Forest Regressor</div>
+            </div>
+            <div class="col-md-3 border-end">
+                <div class="text-muted small">Baseline Accuracy (R²)</div>
+                <div class="fw-bold text-success fs-5 mt-1">99.47%</div>
+            </div>
+            <div class="col-md-3 border-end">
+                <div class="text-muted small">Your Logged Sales</div>
+                <div class="fw-bold text-primary fs-5 mt-1">{{ user_sales_count }} Transactions</div>
+            </div>
+            <div class="col-md-3">
+                <div class="text-muted small">Training Mode</div>
+                <span class="badge bg-primary-subtle text-primary border px-2 py-1">
+                    Industry Baseline + Real Signals
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Bottom Tables: Recent AI Recommendations & Recent Sales -->
+<div class="row g-4">
+    <!-- Recent Price Recommendations -->
+    <div class="col-lg-6">
+        <div class="content-card mb-0">
+            <div class="content-card-header">
+                <h5><i class="fa-solid fa-wand-magic-sparkles text-warning"></i> Latest AI Price Recommendations</h5>
+                <a href="{{ url_for('pricing') }}" class="text-decoration-none small fw-semibold">View All</a>
+            </div>
+            <div class="content-card-body p-0">
+                <div class="table-responsive">
+                    <table class="table custom-table mb-0">
+                        <thead>
+                            <tr>
+                                <th>Product</th>
+                                <th>Current</th>
+                                <th>Recommended</th>
+                                <th>Diff</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for rec in recent_recs %}
+                            <tr>
+                                <td class="fw-medium text-truncate" style="max-width: 150px;">
+                                    {{ rec.product.name if rec.product else 'N/A' }}
+                                </td>
+                                <td>${{ "{:.2f}".format(rec.current_price) }}</td>
+                                <td class="fw-bold text-primary">${{ "{:.2f}".format(rec.recommended_price) }}</td>
+                                <td>
+                                    {% if rec.price_difference > 0 %}
+                                        <span class="price-up"><i class="fa-solid fa-arrow-up-long me-1"></i>+${{ "{:.2f}".format(rec.price_difference) }}</span>
+                                    {% elif rec.price_difference < 0 %}
+                                        <span class="price-down"><i class="fa-solid fa-arrow-down-long me-1"></i>-${{ "{:.2f}".format(rec.price_difference|abs) }}</span>
+                                    {% else %}
+                                        <span class="price-neutral">$0.00</span>
+                                    {% endif %}
+                                </td>
+                                <td>
+                                    {% if rec.status == 'Pending' %}
+                                    <form action="{{ url_for('apply_price_action', rec_id=rec.id) }}" method="POST" style="display:inline;">
+                                        <button type="submit" class="btn btn-sm btn-outline-success py-1 px-2" title="Apply AI Price">
+                                            <i class="fa-solid fa-check"></i> Apply
+                                        </button>
+                                    </form>
+                                    {% else %}
+                                    <span class="badge bg-success-subtle text-success">Applied</span>
+                                    {% endif %}
+                                </td>
+                            </tr>
+                            {% else %}
+                            <tr>
+                                <td colspan="5" class="text-center py-4 text-muted">
+                                    No recommendations generated yet. Select a product in <a href="{{ url_for('pricing') }}">Dynamic Pricing</a>!
+                                </td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Recent Sales Transactions -->
+    <div class="col-lg-6">
+        <div class="content-card mb-0">
+            <div class="content-card-header">
+                <h5><i class="fa-solid fa-clock-rotate-left text-primary"></i> My Recent Sales Transactions</h5>
+                <a href="{{ url_for('sales') }}" class="text-decoration-none small fw-semibold">View Sales Log</a>
+            </div>
+            <div class="content-card-body p-0">
+                <div class="table-responsive">
+                    <table class="table custom-table mb-0">
+                        <thead>
+                            <tr>
+                                <th>Date</th>
+                                <th>Product</th>
+                                <th>Qty</th>
+                                <th>Unit Price</th>
+                                <th>Total</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for sale in recent_sales %}
+                            <tr>
+                                <td class="text-muted small">{{ sale.sale_date.strftime('%b %d') }}</td>
+                                <td class="fw-medium text-truncate" style="max-width: 140px;">
+                                    {{ sale.product.name if sale.product else 'N/A' }}
+                                </td>
+                                <td><span class="badge bg-light text-dark border">{{ sale.quantity_sold }}</span></td>
+                                <td>${{ "{:.2f}".format(sale.selling_price) }}</td>
+                                <td class="fw-bold text-dark">${{ "{:.2f}".format(sale.total_revenue) }}</td>
+                            </tr>
+                            {% else %}
+                            <tr>
+                                <td colspan="5" class="text-center py-4 text-muted">
+                                    No sales transactions recorded yet. <a href="{{ url_for('sales') }}">Log your first sale</a>!
+                                </td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

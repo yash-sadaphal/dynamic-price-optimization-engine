@@ -1,0 +1,801 @@
+product_id,product_name,category,cost_price,base_price,current_price,competitor_price,demand_level,inventory_level,season,quantity_sold,optimal_selling_price
+1,Wireless Noise-Canceling Headphones,Electronics,45.0,99.99,102.78,85.74,2,72,2,41,94.29
+2,Smart Fitness Watch,Electronics,30.0,69.99,75.48,61.32,2,22,1,28,69.85
+3,Ergonomic Office Chair,Furniture,75.0,179.99,169.86,180.28,1,65,4,38,181.82
+4,RGB Mechanical Gaming Keyboard,Electronics,28.0,59.99,54.07,65.49,2,102,3,48,62.19
+5,Stainless Steel Thermal Water Bottle,Home & Kitchen,8.0,24.99,23.27,28.42,2,38,4,61,29.34
+6,Organic Cotton Running T-Shirt,Apparel,6.5,19.99,20.4,21.83,2,152,1,41,20.73
+7,Compact Cold Brew Coffee Maker,Home & Kitchen,15.0,39.99,43.77,38.53,2,227,3,28,37.04
+8,Ultra-Slim 7-in-1 USB-C Hub,Accessories,12.0,34.99,31.81,32.13,2,35,2,46,35.54
+9,Adjustable Aluminum Laptop Stand,Accessories,11.0,29.99,32.19,28.91,2,228,3,36,27.78
+10,Water-Resistant Outdoor Backpack,Travel,22.0,54.99,56.86,58.32,2,33,2,45,59.14
+1,Wireless Noise-Canceling Headphones,Electronics,45.0,99.99,100.67,92.34,2,84,2,40,96.93
+2,Smart Fitness Watch,Electronics,30.0,69.99,73.85,64.3,1,95,4,25,66.8
+3,Ergonomic Office Chair,Furniture,75.0,179.99,169.59,203.91,3,95,2,64,207.7
+4,RGB Mechanical Gaming Keyboard,Electronics,28.0,59.99,59.5,55.76,1,158,3,23,55.38
+5,Stainless Steel Thermal Water Bottle,Home & Kitchen,8.0,24.99,24.63,25.62,2,50,4,51,26.76
+6,Organic Cotton Running T-Shirt,Apparel,6.5,19.99,18.43,20.75,3,123,1,59,21.7
+7,Compact Cold Brew Coffee Maker,Home & Kitchen,15.0,39.99,40.76,39.61,2,156,1,36,39.84
+8,Ultra-Slim 7-in-1 USB-C Hub,Accessories,12.0,34.99,37.68,37.62,3,102,1,46,38.37
+9,Adjustable Aluminum Laptop Stand,Accessories,11.0,29.99,27.94,25.52,2,199,3,48,26.51
+10,Water-Resistant Outdoor Backpack,Travel,22.0,54.99,55.07,48.5,2,230,2,42,49.25
+1,Wireless Noise-Canceling Headphones,Electronics,45.0,99.99,93.05,107.86,2,214,1,37,96.95
+2,Smart Fitness Watch,Electronics,30.0,69.99,64.56,67.11,3,221,3,56,68.72
+3,Ergonomic Office Chair,Furniture,75.0,179.99,170.66,183.63,1,202,4,41,170.18
+4,RGB Mechanical Gaming Keyboard,Electronics,28.0,59.99,55.5,62.87,3,57,3,48,65.81
+5,Stainless Steel Thermal Water Bottle,Home & Kitchen,8.0,24.99,25.52,28.47,3,208,2,59,26.87
+6,Organic Cotton Running T-Shirt,Apparel,6.5,19.99,19.48,22.39,2,78,2,41,20.95
+7,Compact Cold Brew Coffee Maker,Home & Kitchen,15.0,39.99,36.5,34.24,2,165,2,55,37.69
+8,Ultra-Slim 7-in-1 USB-C Hub,Accessories,12.0,34.99,31.9,30.45,1,99,1,30,31.2
+9,Adjustable Aluminum Laptop Stand,Accessories,11.0,29.99,28.66,29.86,2,200,4,53,29.83
+10,Water-Resistant Outdoor Backpack,Travel,22.0,54.99,53.97,48.3,2,105,4,55,55.45
+1,Wireless Noise-Canceling Headphones,Electronics,45.0,99.99,98.21,110.9,1,182,1,33,93.39
+2,Smart Fitness Watch,Electronics,30.0,69.99,64.52,63.51,2,50,4,57,71.44
+3,Ergonomic Office Chair,Furniture,75.0,179.99,168.6,177.97,3,34,4,79,210.38
+4,RGB Mechanical Gaming Keyboard,Electronics,28.0,59.99,61.82,60.72,1,38,2,22,58.65
+5,Stainless Steel Thermal Water Bottle,Home & Kitchen,8.0,24.99,24.92,22.84,2,30,2,35,25.34
+6,Organic Cotton Running T-Shirt,Apparel,6.5,19.99,19.05,21.69,2,123,4,61,21.91
+7,Compact Cold Brew Coffee Maker,Home & Kitchen,15.0,39.99,37.23,37.55,3,163,1,58,42.1
+8,Ultra-Slim 7-in-1 USB-C Hub,Accessories,12.0,34.99,35.01,38.69,1,145,1,25,34.79
+9,Adjustable Aluminum Laptop Stand,Accessories,11.0,29.99,27.4,26.1,3,118,1,64,30.68
+10,Water-Resistant Outdoor Backpack,Travel,22.0,54.99,49.93,48.09,2,159,3,41,52.23
+1,Wireless Noise-Canceling Headphones,Electronics,45.0,99.99,108.68,91.12,2,76,3,29,96.44
+2,Smart Fitness Watch,Electronics,30.0,69.99,67.19,66.13,3,33,1,59,77.11
+3,Ergonomic Office Chair,Furniture,75.0,179.99,197.93,206.78,1,69,3,26,175.97
+4,RGB Mechanical Gaming Keyboard,Electronics,28.0,59.99,56.92,56.12,2,154,3,43,58.44
+5,Stainless Steel Thermal Water Bottle,Home & Kitchen,8.0,24.99,25.55,28.64,2,17,3,38,27.77
+6,Organic Cotton Running T-Shirt,Apparel,6.5,19.99,21.5,18.58,3,205,2,55,19.42
+7,Compact Cold Brew Coffee Maker,Home & Kitchen,15.0,39.99,40.83,42.6,1,177,3,22,39.24
+8,Ultra-Slim 7-in-1 USB-C Hub,Accessories,12.0,34.99,31.85,36.4,3,26,1,60,39.82
+9,Adjustable Aluminum Laptop Stand,Accessories,11.0,29.99,27.78,34.31,1,128,4,36,32.2
+10,Water-Resistant Outdoor Backpack,Travel,22.0,54.99,57.09,49.2,1,109,2,28,49.37
+1,Wireless Noise-Canceling Headphones,Electronics,45.0,99.99,90.83,95.93,3,235,1,62,98.24
+2,Smart Fitness Watch,Electronics,30.0,69.99,64.43,75.87,3,119,2,66,79.31
+3,Ergonomic Office Chair,Furniture,75.0,179.99,170.51,161.77,3,60,4,81,195.26
+4,RGB Mechanical Gaming Keyboard,Electronics,28.0,59.99,65.16,65.43,3,222,2,56,62.14
+5,Stainless Steel Thermal Water Bottle,Home & Kitchen,8.0,24.99,26.43,22.05,3,234,4,66,25.46
+6,Organic Cotton Running T-Shirt,Apparel,6.5,19.99,19.21,21.76,1,21,2,39,20.34
+7,Compact Cold Brew Coffee Maker,Home & Kitchen,15.0,39.99,38.22,34.82,3,104,4,70,42.87
+8,Ultra-Slim 7-in-1 USB-C Hub,Accessories,12.0,34.99,31.68,38.95,2,163,3,36,36.57
+9,Adjustable Aluminum Laptop Stand,Accessories,11.0,29.99,27.22,30.86,2,216,3,32,28.52
+10,Water-Resistant Outdoor Backpack,Travel,22.0,54.99,50.76,61.58,1,26,4,43,59.01
+1,Wireless Noise-Canceling Headphones,Electronics,45.0,99.99,108.5,101.14,2,204,2,38,94.42
+2,Smart Fitness Watch,Electronics,30.0,69.99,72.29,66.42,2,232,1,37,64.45
+3,Ergonomic Office Chair,Furniture,75.0,179.99,187.9,169.21,2,119,3,33,175.68
+4,RGB Mechanical Gaming Keyboard,Electronics,28.0,59.99,55.52,58.56,3,188,2,70,60.36
+5,Stainless Steel Thermal Water Bottle,Home & Kitchen,8.0,24.99,24.0,25.35,1,88,2,27,23.78
+6,Organic Cotton Running T-Shirt,Apparel,6.5,19.99,19.85,19.64,1,136,2,33,18.79
+7,Compact Cold Brew Coffee Maker,Home & Kitchen,15.0,39.99,38.26,41.96,2,38,2,45,42.82
+8,Ultra-Slim 7-in-1 USB-C Hub,Accessories,12.0,34.99,32.88,30.0,1,136,1,26,30.96
+9,Adjustable Aluminum Laptop Stand,Accessories,11.0,29.99,32.31,30.67,2,113,4,43,32.08
+10,Water-Resistant Outdoor Backpack,Travel,22.0,54.99,57.05,61.47,3,241,1,52,58.94
+1,Wireless Noise-Canceling Headphones,Electronics,45.0,99.99,94.37,109.11,2,133,1,32,103.64
+2,Smart Fitness Watch,Electronics,30.0,69.99,64.69,62.29,2,150,3,38,66.91
+3,Ergonomic Office Chair,Furniture,75.0,179.99,196.19,201.13,2,199,4,47,187.77
+4,RGB Mechanical Gaming Keyboard,Electronics,28.0,59.99,64.76,64.38,2,81,2,35,61.75
+5,Stainless Steel Thermal Water Bottle,Home & Kitchen,8.0,24.99,26.69,23.32,3,139,2,56,25.89
+6,Organic Cotton Running T-Shirt,Apparel,6.5,19.99,19.08,18.91,2,50,2,48,19.56
+7,Compact Cold Brew Coffee Maker,Home & Kitchen,15.0,39.99,37.84,42.32,2,31,4,49,45.55
+8,Ultra-Slim 7-in-1 USB-C Hub,Accessories,12.0,34.99,34.4,31.91,2,246,1,41,31.73
+9,Adjustable Aluminum Laptop Stand,Accessories,11.0,29.99,32.13,32.38,2,16,3,33,32.49
+10,Water-Resistant Outdoor Backpack,Travel,22.0,54.99,59.3,60.53,2,203,2,43,53.77
+1,Wireless Noise-Canceling Headphones,Electronics,45.0,99.99,99.75,93.18,2,114,3,34,97.27
+2,Smart Fitness Watch,Electronics,30.0,69.99,73.13,77.14,3,174,1,44,79.8
+3,Ergonomic Office Chair,Furniture,75.0,179.99,183.3,188.79,1,124,2,31,170.74
+4,RGB Mechanical Gaming Keyboard,Electronics,28.0,59.99,57.92,59.17,2,240,4,50,59.45
+5,Stainless Steel Thermal Water Bottle,Home & Kitchen,8.0,24.99,23.88,28.37,2,228,1,33,24.76
+6,Organic Cotton Running T-Shirt,Apparel,6.5,19.99,18.2,22.7,1,32,1,31,21.03
+7,Compact Cold Brew Coffee Maker,Home & Kitchen,15.0,39.99,43.59,36.38,1,54,2,31,36.33
+8,Ultra-Slim 7-in-1 USB-C Hub,Accessories,12.0,34.99,33.02,37.08,3,57,1,61,39.01
+9,Adjustable Aluminum Laptop Stand,Accessories,11.0,29.99,27.97,28.29,2,94,4,49,31.07
+10,Water-Resistant Outdoor Backpack,Travel,22.0,54.99,50.33,58.13,2,41,3,46,56.25
+1,Wireless Noise-Canceling Headphones,Electronics,45.0,99.99,107.0,103.0,1,159,1,21,94.6
+2,Smart Fitness Watch,Electronics,30.0,69.99,70.07,66.66,3,225,4,73,72.19
+3,Ergonomic Office Chair,Furniture,75.0,179.99,196.58,187.31,3,196,2,48,188.84
+4,RGB Mechanical Gaming Keyboard,Electronics,28.0,59.99,57.23,65.54,2,138,4,55,65.94
+5,Stainless Steel Thermal Water Bottle,Home & Kitchen,8.0,24.99,24.67,26.72,2,233,2,45,24.14
+6,Organic Cotton Running T-Shirt,Apparel,6.5,19.99,21.52,18.45,2,171,4,43,20.54
+7,Compact Cold Brew Coffee Maker,Home & Kitchen,15.0,39.99,38.68,39.92,2,139,2,44,39.96
+8,Ultra-Slim 7-in-1 USB-C Hub,Accessories,12.0,34.99,33.45,36.0,3,157,1,58,38.08
+9,Adjustable Aluminum Laptop Stand,Accessories,11.0,29.99,28.14,27.66,2,157,2,45,29.06
+10,Water-Resistant Outdoor Backpack,Travel,22.0,54.99,54.89,59.82,1,71,4,29,57.18
+1,Wireless Noise-Canceling Headphones,Electronics,45.0,99.99,96.11,102.44,2,150,3,34,100.97
+2,Smart Fitness Watch,Electronics,30.0,69.99,67.62,74.25,2,79,2,49,71.69
+3,Ergonomic Office Chair,Furniture,75.0,179.99,166.33,163.39,1,152,2,36,161.4
+4,RGB Mechanical Gaming Keyboard,Electronics,28.0,59.99,61.06,64.67,2,40,2,49,61.86
+5,Stainless Steel Thermal Water Bottle,Home & Kitchen,8.0,24.99,23.97,23.95,2,196,2,44,23.1
+6,Organic Cotton Running T-Shirt,Apparel,6.5,19.99,20.2,21.17,1,237,4,45,18.84
+7,Compact Cold Brew Coffee Maker,Home & Kitchen,15.0,39.99,36.09,37.4,2,102,2,53,38.95
+8,Ultra-Slim 7-in-1 USB-C Hub,Accessories,12.0,34.99,37.52,30.94,1,140,1,23,31.47
+9,Adjustable Aluminum Laptop Stand,Accessories,11.0,29.99,31.11,26.86,3,92,1,52,31.27
+10,Water-Resistant Outdoor Backpack,Travel,22.0,54.99,56.16,59.79,1,148,4,33,56.59
+1,Wireless Noise-Canceling Headphones,Electronics,45.0,99.99,98.84,110.79,3,93,1,48,114.47
+2,Smart Fitness Watch,Electronics,30.0,69.99,65.9,63.92,2,55,2,43,67.56
+3,Ergonomic Office Chair,Furniture,75.0,179.99,168.25,157.04,1,130,4,37,171.69
+4,RGB Mechanical Gaming Keyboard,Electronics,28.0,59.99,62.43,59.16,2,82,2,44,59.66
+5,Stainless Steel Thermal Water Bottle,Home & Kitchen,8.0,24.99,24.62,25.32,2,247,3,39,23.61
+6,Organic Cotton Running T-Shirt,Apparel,6.5,19.99,18.65,18.84,2,160,3,40,19.53
+7,Compact Cold Brew Coffee Maker,Home & Kitchen,15.0,39.99,39.5,39.61,2,118,3,33,39.84
+8,Ultra-Slim 7-in-1 USB-C Hub,Accessories,12.0,34.99,32.05,30.16,2,97,3,42,33.06
+9,Adjustable Aluminum Laptop Stand,Accessories,11.0,29.99,27.15,27.55,2,235,1,49,27.27
+10,Water-Resistant Outdoor Backpack,Travel,22.0,54.99,52.46,47.41,3,135,4,74,60.35
+1,Wireless Noise-Canceling Headphones,Electronics,45.0,99.99,93.62,102.55,2,140,1,37,101.01
+2,Smart Fitness Watch,Electronics,30.0,69.99,67.49,61.69,1,120,4,37,65.83
+3,Ergonomic Office Chair,Furniture,75.0,179.99,196.02,196.92,2,131,1,32,186.76
+4,RGB Mechanical Gaming Keyboard,Electronics,28.0,59.99,65.63,58.27,2,15,4,47,66.0
+5,Stainless Steel Thermal Water Bottle,Home & Kitchen,8.0,24.99,24.56,22.65,2,208,4,46,23.97
+6,Organic Cotton Running T-Shirt,Apparel,6.5,19.99,18.8,20.29,3,127,4,71,22.51
+7,Compact Cold Brew Coffee Maker,Home & Kitchen,15.0,39.99,43.77,41.3,1,55,3,18,37.42
+8,Ultra-Slim 7-in-1 USB-C Hub,Accessories,12.0,34.99,38.43,39.32,2,45,2,37,36.72
+9,Adjustable Aluminum Laptop Stand,Accessories,11.0,29.99,29.98,31.94,2,84,4,55,32.62
+10,Water-Resistant Outdoor Backpack,Travel,22.0,54.99,52.17,55.84,2,250,2,37,52.01
+1,Wireless Noise-Canceling Headphones,Electronics,45.0,99.99,107.27,93.28,3,121,3,52,106.16
+2,Smart Fitness Watch,Electronics,30.0,69.99,66.95,65.76,2,183,4,51,68.05
+3,Ergonomic Office Chair,Furniture,75.0,179.99,193.14,177.1,2,100,4,42,189.56
+4,RGB Mechanical Gaming Keyboard,Electronics,28.0,59.99,56.25,63.54,2,74,4,55,65.09
+5,Stainless Steel Thermal Water Bottle,Home & Kitchen,8.0,24.99,22.71,26.82,2,222,4,52,25.63
+6,Organic Cotton Running T-Shirt,Apparel,6.5,19.99,21.27,22.87,2,24,2,44,22.2
+7,Compact Cold Brew Coffee Maker,Home & Kitchen,15.0,39.99,40.01,41.07,3,238,4,77,42.32
+8,Ultra-Slim 7-in-1 USB-C Hub,Accessories,12.0,34.99,32.5,38.88,3,34,4,82,44.3
+9,Adjustable Aluminum Laptop Stand,Accessories,11.0,29.99,28.58,31.1,2,35,3,45,31.96
+10,Water-Resistant Outdoor Backpack,Travel,22.0,54.99,53.67,51.97,2,209,4,45,53.59
+1,Wireless Noise-Canceling Headphones,Electronics,45.0,99.99,107.44,86.07,1,176,3,30,88.51
+2,Smart Fitness Watch,Electronics,30.0,69.99,64.37,72.8,3,128,2,68,77.14
+3,Ergonomic Office Chair,Furniture,75.0,179.99,194.51,155.47,3,90,3,46,183.21
+4,RGB Mechanical Gaming Keyboard,Electronics,28.0,59.99,60.78,65.25,1,35,4,35,65.29
+5,Stainless Steel Thermal Water Bottle,Home & Kitchen,8.0,24.99,23.69,28.08,1,133,3,22,25.07
+6,Organic Cotton Running T-Shirt,Apparel,6.5,19.99,19.85,18.72,2,33,4,51,21.68
+7,Compact Cold Brew Coffee Maker,Home & Kitchen,15.0,39.99,43.55,45.84,2,123,3,30,42.33
+8,Ultra-Slim 7-in-1 USB-C Hub,Accessories,12.0,34.99,38.48,38.7,1,112,3,24,34.39
+9,Adjustable Aluminum Laptop Stand,Accessories,11.0,29.99,32.95,28.15,3,183,4,61,31.61
+10,Water-Resistant Outdoor Backpack,Travel,22.0,54.99,57.68,47.55,2,142,3,40,52.01
+1,Wireless Noise-Canceling Headphones,Electronics,45.0,99.99,105.5,91.89,3,71,2,53,105.07
+2,Smart Fitness Watch,Electronics,30.0,69.99,72.22,77.09,2,246,1,32,68.46
+3,Ergonomic Office Chair,Furniture,75.0,179.99,173.11,176.79,2,202,2,49,167.99
+4,RGB Mechanical Gaming Keyboard,Electronics,28.0,59.99,62.96,54.15,1,153,3,26,54.27
+5,Stainless Steel Thermal Water Bottle,Home & Kitchen,8.0,24.99,27.06,27.47,2,226,4,48,25.89
+6,Organic Cotton Running T-Shirt,Apparel,6.5,19.99,21.47,21.81,2,34,2,39,21.75
+7,Compact Cold Brew Coffee Maker,Home & Kitchen,15.0,39.99,42.02,36.7,2,187,4,53,38.53
+8,Ultra-Slim 7-in-1 USB-C Hub,Accessories,12.0,34.99,34.05,38.04,1,152,1,26,33.97
+9,Adjustable Aluminum Laptop Stand,Accessories,11.0,29.99,31.03,31.54,2,225,3,38,28.77
+10,Water-Resistant Outdoor Backpack,Travel,22.0,54.99,49.77,61.33,2,249,2,51,54.07
+1,Wireless Noise-Canceling Headphones,Electronics,45.0,99.99,102.94,104.05,2,194,3,35,95.52
+2,Smart Fitness Watch,Electronics,30.0,69.99,63.63,60.27,3,44,1,58,70.18
+3,Ergonomic Office Chair,Furniture,75.0,179.99,181.34,173.98,2,205,4,44,176.95
+4,RGB Mechanical Gaming Keyboard,Electronics,28.0,59.99,64.61,62.78,3,172,4,60,71.05
+5,Stainless Steel Thermal Water Bottle,Home & Kitchen,8.0,24.99,23.89,26.42,1,128,2,33,24.22
+6,Organic Cotton Running T-Shirt,Apparel,6.5,19.99,20.17,22.86,2,116,3,36,21.14
+7,Compact Cold Brew Coffee Maker,Home & Kitchen,15.0,39.99,37.51,35.46,3,131,1,54,41.23
+8,Ultra-Slim 7-in-1 USB-C Hub,Accessories,12.0,34.99,31.64,38.0,1,47,2,30,33.4
+9,Adjustable Aluminum Laptop Stand,Accessories,11.0,29.99,31.58,27.36,1,237,2,27,26.01
+10,Water-Resistant Outdoor Backpack,Travel,22.0,54.99,49.52,60.9,1,48,3,32,54.6
+1,Wireless Noise-Canceling Headphones,Electronics,45.0,99.99,92.19,110.98,1,106,2,33,97.14
+2,Smart Fitness Watch,Electronics,30.0,69.99,64.77,68.33,1,31,4,38,72.37
+3,Ergonomic Office Chair,Furniture,75.0,179.99,175.02,185.05,2,71,1,38,182.01
+4,RGB Mechanical Gaming Keyboard,Electronics,28.0,59.99,61.9,56.42,2,22,1,27,61.49
+5,Stainless Steel Thermal Water Bottle,Home & Kitchen,8.0,24.99,27.48,27.59,2,42,4,43,27.59
+6,Organic Cotton Running T-Shirt,Apparel,6.5,19.99,21.59,18.92,1,47,3,19,18.49
+7,Compact Cold Brew Coffee Maker,Home & Kitchen,15.0,39.99,40.67,42.54,2,167,3,31,41.01
+8,Ultra-Slim 7-in-1 USB-C Hub,Accessories,12.0,34.99,32.19,37.11,3,181,2,70,36.1
+9,Adjustable Aluminum Laptop Stand,Accessories,11.0,29.99,32.32,29.21,3,117,4,63,33.52
+10,Water-Resistant Outdoor Backpack,Travel,22.0,54.99,52.29,62.47,2,136,1,37,57.98
+1,Wireless Noise-Canceling Headphones,Electronics,45.0,99.99,91.82,87.55,2,205,3,44,89.31
+2,Smart Fitness Watch,Electronics,30.0,69.99,71.2,71.28,2,46,4,44,74.74
+3,Ergonomic Office Chair,Furniture,75.0,179.99,174.72,188.92,3,237,1,60,184.21
+4,RGB Mechanical Gaming Keyboard,Electronics,28.0,59.99,60.92,54.82,2,72,1,36,57.92
+5,Stainless Steel Thermal Water Bottle,Home & Kitchen,8.0,24.99,24.24,25.41,1,86,2,34,24.13
+6,Organic Cotton Running T-Shirt,Apparel,6.5,19.99,21.26,20.67,2,21,3,27,21.28
+7,Compact Cold Brew Coffee Maker,Home & Kitchen,15.0,39.99,36.22,37.27,3,250,3,59,38.66
+8,Ultra-Slim 7-in-1 USB-C Hub,Accessories,12.0,34.99,36.09,30.47,2,22,1,38,34.84
+9,Adjustable Aluminum Laptop Stand,Accessories,11.0,29.99,31.47,27.43,2,102,2,36,28.97
+10,Water-Resistant Outdoor Backpack,Travel,22.0,54.99,58.03,56.11,1,28,2,33,53.92
+1,Wireless Noise-Canceling Headphones,Electronics,45.0,99.99,102.35,105.21,2,184,4,44,101.71
+2,Smart Fitness Watch,Electronics,30.0,69.99,66.81,75.34,1,125,1,28,67.18
+3,Ergonomic Office Chair,Furniture,75.0,179.99,186.42,179.27,2,26,2,37,188.69
+4,RGB Mechanical Gaming Keyboard,Electronics,28.0,59.99,54.08,56.42,1,50,3,33,54.56
+5,Stainless Steel Thermal Water Bottle,Home & Kitchen,8.0,24.99,23.09,24.97,2,48,4,52,26.48
+6,Organic Cotton Running T-Shirt,Apparel,6.5,19.99,20.22,21.0,2,116,1,36,20.39
+7,Compact Cold Brew Coffee Maker,Home & Kitchen,15.0,39.99,39.48,39.51,1,95,4,29,39.52
+8,Ultra-Slim 7-in-1 USB-C Hub,Accessories,12.0,34.99,32.3,29.96,2,220,4,52,32.86
+9,Adjustable Aluminum Laptop Stand,Accessories,11.0,29.99,31.98,33.77,1,231,1,24,27.86
+10,Water-Resistant Outdoor Backpack,Travel,22.0,54.99,53.84,51.86,2,100,2,50,53.74
+1,Wireless Noise-Canceling Headphones,Electronics,45.0,99.99,91.52,103.99,2,64,3,36,101.59
+2,Smart Fitness Watch,Electronics,30.0,69.99,72.03,62.59,1,80,2,37,62.13
+3,Ergonomic Office Chair,Furniture,75.0,179.99,167.49,193.98,1,212,4,33,174.41
+4,RGB Mechanical Gaming Keyboard,Electronics,28.0,59.99,62.16,66.87,2,174,3,37,62.74
+5,Stainless Steel Thermal Water Bottle,Home & Kitchen,8.0,24.99,26.81,25.94,1,32,4,28,26.29
+6,Organic Cotton Running T-Shirt,Apparel,6.5,19.99,18.22,20.03,2,130,1,44,20.01
+7,Compact Cold Brew Coffee Maker,Home & Kitchen,15.0,39.99,36.45,43.97,1,236,1,26,36.68
+8,Ultra-Slim 7-in-1 USB-C Hub,Accessories,12.0,34.99,35.37,38.05,3,130,2,57,38.61
+9,Adjustable Aluminum Laptop Stand,Accessories,11.0,29.99,29.84,26.85,1,41,3,28,27.18
+10,Water-Resistant Outdoor Backpack,Travel,22.0,54.99,49.92,58.42,3,149,2,69,60.21
+1,Wireless Noise-Canceling Headphones,Electronics,45.0,99.99,108.35,96.61,3,188,1,49,97.66
+2,Smart Fitness Watch,Electronics,30.0,69.99,64.31,73.74,2,200,2,43,67.2
+3,Ergonomic Office Chair,Furniture,75.0,179.99,173.99,184.46,1,104,3,33,170.09
+4,RGB Mechanical Gaming Keyboard,Electronics,28.0,59.99,61.13,67.87,2,111,3,35,63.14
+5,Stainless Steel Thermal Water Bottle,Home & Kitchen,8.0,24.99,26.56,26.27,3,204,1,46,25.6
+6,Organic Cotton Running T-Shirt,Apparel,6.5,19.99,19.44,18.07,1,211,4,32,17.77
+7,Compact Cold Brew Coffee Maker,Home & Kitchen,15.0,39.99,43.99,35.85,2,216,1,28,36.03
+8,Ultra-Slim 7-in-1 USB-C Hub,Accessories,12.0,34.99,36.66,35.27,2,239,2,41,33.0
+9,Adjustable Aluminum Laptop Stand,Accessories,11.0,29.99,30.57,26.88,1,192,2,29,25.25
+10,Water-Resistant Outdoor Backpack,Travel,22.0,54.99,57.41,62.74,2,207,4,46,57.88
+1,Wireless Noise-Canceling Headphones,Electronics,45.0,99.99,94.67,92.17,3,215,4,77,104.61
+2,Smart Fitness Watch,Electronics,30.0,69.99,70.98,68.74,3,214,4,67,74.44
+3,Ergonomic Office Chair,Furniture,75.0,179.99,177.06,161.74,1,169,2,32,162.19
+4,RGB Mechanical Gaming Keyboard,Electronics,28.0,59.99,58.44,67.81,2,147,1,38,63.12
+5,Stainless Steel Thermal Water Bottle,Home & Kitchen,8.0,24.99,23.92,26.96,2,246,2,47,24.23
+6,Organic Cotton Running T-Shirt,Apparel,6.5,19.99,21.63,21.89,3,21,4,61,24.31
+7,Compact Cold Brew Coffee Maker,Home & Kitchen,15.0,39.99,40.01,36.82,3,110,2,70,42.28
+8,Ultra-Slim 7-in-1 USB-C Hub,Accessories,12.0,34.99,36.04,38.05,1,88,4,35,36.38
+9,Adjustable Aluminum Laptop Stand,Accessories,11.0,29.99,27.82,31.84,2,16,1,44,32.27
+10,Water-Resistant Outdoor Backpack,Travel,22.0,54.99,51.14,62.25,2,123,1,42,57.89
+1,Wireless Noise-Canceling Headphones,Electronics,45.0,99.99,105.51,92.12,1,76,4,29,94.7
+2,Smart Fitness Watch,Electronics,30.0,69.99,74.7,69.99,2,176,2,36,69.99
+3,Ergonomic Office Chair,Furniture,75.0,179.99,187.86,168.72,1,105,2,26,166.13
+4,RGB Mechanical Gaming Keyboard,Electronics,28.0,59.99,60.27,57.48,3,154,1,51,63.09
+5,Stainless Steel Thermal Water Bottle,Home & Kitchen,8.0,24.99,24.84,26.01,3,79,1,52,26.97
+6,Organic Cotton Running T-Shirt,Apparel,6.5,19.99,20.62,17.61,2,208,3,37,17.9
+7,Compact Cold Brew Coffee Maker,Home & Kitchen,15.0,39.99,37.06,38.22,2,179,2,51,39.28
+8,Ultra-Slim 7-in-1 USB-C Hub,Accessories,12.0,34.99,38.35,34.76,1,49,1,18,33.11
+9,Adjustable Aluminum Laptop Stand,Accessories,11.0,29.99,32.65,25.82,1,217,2,30,24.82
+10,Water-Resistant Outdoor Backpack,Travel,22.0,54.99,53.87,60.19,2,24,2,42,59.92
+1,Wireless Noise-Canceling Headphones,Electronics,45.0,99.99,95.71,110.85,1,182,3,27,91.94
+2,Smart Fitness Watch,Electronics,30.0,69.99,68.59,68.72,3,101,2,70,74.68
+3,Ergonomic Office Chair,Furniture,75.0,179.99,179.9,202.9,2,220,1,37,177.8
+4,RGB Mechanical Gaming Keyboard,Electronics,28.0,59.99,61.22,65.79,2,97,1,35,62.31
+5,Stainless Steel Thermal Water Bottle,Home & Kitchen,8.0,24.99,22.89,26.2,2,169,4,58,27.0
+6,Organic Cotton Running T-Shirt,Apparel,6.5,19.99,19.78,21.35,3,172,4,74,23.15
+7,Compact Cold Brew Coffee Maker,Home & Kitchen,15.0,39.99,43.83,45.36,1,178,4,26,42.31
+8,Ultra-Slim 7-in-1 USB-C Hub,Accessories,12.0,34.99,38.16,31.24,2,215,4,50,33.37
+9,Adjustable Aluminum Laptop Stand,Accessories,11.0,29.99,27.2,26.1,3,108,3,56,30.72
+10,Water-Resistant Outdoor Backpack,Travel,22.0,54.99,56.96,62.39,2,210,1,39,54.47
+1,Wireless Noise-Canceling Headphones,Electronics,45.0,99.99,101.47,100.87,2,181,3,37,94.32
+2,Smart Fitness Watch,Electronics,30.0,69.99,73.29,69.97,2,158,1,37,69.98
+3,Ergonomic Office Chair,Furniture,75.0,179.99,171.41,167.05,2,171,3,35,174.81
+4,RGB Mechanical Gaming Keyboard,Electronics,28.0,59.99,56.39,53.43,1,59,4,24,58.37
+5,Stainless Steel Thermal Water Bottle,Home & Kitchen,8.0,24.99,26.54,28.5,3,185,3,47,26.41
+6,Organic Cotton Running T-Shirt,Apparel,6.5,19.99,19.19,17.94,2,194,2,41,18.02
+7,Compact Cold Brew Coffee Maker,Home & Kitchen,15.0,39.99,42.34,40.1,1,66,2,28,37.41
+8,Ultra-Slim 7-in-1 USB-C Hub,Accessories,12.0,34.99,35.5,34.65,3,48,1,56,36.71
+9,Adjustable Aluminum Laptop Stand,Accessories,11.0,29.99,29.38,31.94,2,120,4,52,32.62
+10,Water-Resistant Outdoor Backpack,Travel,22.0,54.99,60.19,57.34,2,189,3,32,52.57
+1,Wireless Noise-Canceling Headphones,Electronics,45.0,99.99,92.56,109.86,2,165,2,48,103.94
+2,Smart Fitness Watch,Electronics,30.0,69.99,70.03,77.72,3,147,2,59,77.85
+3,Ergonomic Office Chair,Furniture,75.0,179.99,167.82,203.46,1,147,3,30,179.04
+4,RGB Mechanical Gaming Keyboard,Electronics,28.0,59.99,60.6,53.24,2,151,1,35,57.29
+5,Stainless Steel Thermal Water Bottle,Home & Kitchen,8.0,24.99,25.0,22.51,3,54,2,58,25.92
+6,Organic Cotton Running T-Shirt,Apparel,6.5,19.99,21.36,20.37,3,22,1,43,22.25
+7,Compact Cold Brew Coffee Maker,Home & Kitchen,15.0,39.99,41.12,40.91,2,211,4,47,40.21
+8,Ultra-Slim 7-in-1 USB-C Hub,Accessories,12.0,34.99,37.71,35.47,2,92,4,44,37.29
+9,Adjustable Aluminum Laptop Stand,Accessories,11.0,29.99,28.46,32.76,2,131,1,39,31.1
+10,Water-Resistant Outdoor Backpack,Travel,22.0,54.99,54.06,54.4,2,51,3,36,54.75
+1,Wireless Noise-Canceling Headphones,Electronics,45.0,99.99,107.22,94.57,3,103,4,66,111.79
+2,Smart Fitness Watch,Electronics,30.0,69.99,67.46,69.29,2,78,2,48,69.71
+3,Ergonomic Office Chair,Furniture,75.0,179.99,165.48,168.66,2,172,4,55,185.99
+4,RGB Mechanical Gaming Keyboard,Electronics,28.0,59.99,55.91,56.88,2,95,2,56,58.75
+5,Stainless Steel Thermal Water Bottle,Home & Kitchen,8.0,24.99,26.31,24.98,2,142,3,33,24.99
+6,Organic Cotton Running T-Shirt,Apparel,6.5,19.99,19.56,19.73,1,164,3,27,18.33
+7,Compact Cold Brew Coffee Maker,Home & Kitchen,15.0,39.99,38.24,41.16,3,187,4,74,42.54
+8,Ultra-Slim 7-in-1 USB-C Hub,Accessories,12.0,34.99,32.43,32.52,2,118,3,42,34.0
+9,Adjustable Aluminum Laptop Stand,Accessories,11.0,29.99,27.26,25.95,2,107,3,47,28.37
+10,Water-Resistant Outdoor Backpack,Travel,22.0,54.99,57.9,51.36,3,189,1,51,53.17
+1,Wireless Noise-Canceling Headphones,Electronics,45.0,99.99,91.92,96.19,3,157,3,59,105.9
+2,Smart Fitness Watch,Electronics,30.0,69.99,69.99,60.44,1,100,4,32,65.99
+3,Ergonomic Office Chair,Furniture,75.0,179.99,167.35,201.22,1,171,3,35,178.98
+4,RGB Mechanical Gaming Keyboard,Electronics,28.0,59.99,57.58,57.05,3,151,4,84,67.67
+5,Stainless Steel Thermal Water Bottle,Home & Kitchen,8.0,24.99,23.99,27.36,2,187,1,45,24.38
+6,Organic Cotton Running T-Shirt,Apparel,6.5,19.99,21.18,21.34,2,21,4,45,22.85
+7,Compact Cold Brew Coffee Maker,Home & Kitchen,15.0,39.99,38.11,41.86,3,163,2,64,43.12
+8,Ultra-Slim 7-in-1 USB-C Hub,Accessories,12.0,34.99,35.89,36.25,3,52,2,54,37.32
+9,Adjustable Aluminum Laptop Stand,Accessories,11.0,29.99,32.68,26.48,1,95,4,34,28.37
+10,Water-Resistant Outdoor Backpack,Travel,22.0,54.99,58.01,61.93,3,203,1,54,58.93
+1,Wireless Noise-Canceling Headphones,Electronics,45.0,99.99,100.36,101.82,3,137,4,68,116.97
+2,Smart Fitness Watch,Electronics,30.0,69.99,67.78,66.93,3,199,3,57,69.84
+3,Ergonomic Office Chair,Furniture,75.0,179.99,168.91,166.3,2,72,3,42,174.51
+4,RGB Mechanical Gaming Keyboard,Electronics,28.0,59.99,62.27,59.79,2,158,3,30,59.91
+5,Stainless Steel Thermal Water Bottle,Home & Kitchen,8.0,24.99,23.93,25.54,2,244,4,57,25.12
+6,Organic Cotton Running T-Shirt,Apparel,6.5,19.99,21.21,18.73,2,197,1,26,18.32
+7,Compact Cold Brew Coffee Maker,Home & Kitchen,15.0,39.99,38.76,39.3,2,137,2,47,39.71
+8,Ultra-Slim 7-in-1 USB-C Hub,Accessories,12.0,34.99,38.02,37.05,1,172,2,32,33.3
+9,Adjustable Aluminum Laptop Stand,Accessories,11.0,29.99,31.01,30.27,2,28,1,30,31.61
+10,Water-Resistant Outdoor Backpack,Travel,22.0,54.99,50.6,59.46,1,155,2,37,53.16
+1,Wireless Noise-Canceling Headphones,Electronics,45.0,99.99,108.69,111.34,2,66,3,31,104.53
+2,Smart Fitness Watch,Electronics,30.0,69.99,75.7,61.37,2,151,1,39,66.54
+3,Ergonomic Office Chair,Furniture,75.0,179.99,194.87,162.44,3,60,1,52,185.9
+4,RGB Mechanical Gaming Keyboard,Electronics,28.0,59.99,65.23,68.31,3,239,1,47,62.52
+5,Stainless Steel Thermal Water Bottle,Home & Kitchen,8.0,24.99,25.33,22.05,3,87,4,73,27.13
+6,Organic Cotton Running T-Shirt,Apparel,6.5,19.99,21.74,22.1,2,64,1,33,20.83
+7,Compact Cold Brew Coffee Maker,Home & Kitchen,15.0,39.99,38.64,42.76,2,198,2,49,38.63
+8,Ultra-Slim 7-in-1 USB-C Hub,Accessories,12.0,34.99,33.56,36.82,1,171,4,37,36.09
+9,Adjustable Aluminum Laptop Stand,Accessories,11.0,29.99,30.08,26.27,2,62,2,34,28.5
+10,Water-Resistant Outdoor Backpack,Travel,22.0,54.99,49.57,53.07,2,83,3,44,54.22
+1,Wireless Noise-Canceling Headphones,Electronics,45.0,99.99,96.03,106.68,1,182,3,27,89.24
+2,Smart Fitness Watch,Electronics,30.0,69.99,67.29,68.0,2,244,3,38,65.04
+3,Ergonomic Office Chair,Furniture,75.0,179.99,186.84,187.48,3,109,2,59,193.54
+4,RGB Mechanical Gaming Keyboard,Electronics,28.0,59.99,62.96,61.89,2,155,4,49,64.4
+5,Stainless Steel Thermal Water Bottle,Home & Kitchen,8.0,24.99,26.28,27.25,3,210,2,55,26.52
+6,Organic Cotton Running T-Shirt,Apparel,6.5,19.99,20.09,20.16,2,249,1,32,18.85
+7,Compact Cold Brew Coffee Maker,Home & Kitchen,15.0,39.99,36.48,40.56,2,161,2,53,40.22
+8,Ultra-Slim 7-in-1 USB-C Hub,Accessories,12.0,34.99,34.58,36.88,2,140,1,45,35.75
+9,Adjustable Aluminum Laptop Stand,Accessories,11.0,29.99,32.38,29.5,1,48,4,30,29.64
+10,Water-Resistant Outdoor Backpack,Travel,22.0,54.99,58.37,58.67,2,224,1,35,53.07
+1,Wireless Noise-Canceling Headphones,Electronics,45.0,99.99,104.91,102.34,1,103,1,23,96.47
+2,Smart Fitness Watch,Electronics,30.0,69.99,76.79,69.4,2,61,2,38,69.75
+3,Ergonomic Office Chair,Furniture,75.0,179.99,189.56,205.82,2,122,3,39,190.32
+4,RGB Mechanical Gaming Keyboard,Electronics,28.0,59.99,64.42,67.31,2,189,2,39,59.14
+5,Stainless Steel Thermal Water Bottle,Home & Kitchen,8.0,24.99,25.76,23.85,1,152,4,27,24.16
+6,Organic Cotton Running T-Shirt,Apparel,6.5,19.99,18.0,17.13,2,187,4,56,18.78
+7,Compact Cold Brew Coffee Maker,Home & Kitchen,15.0,39.99,40.25,43.87,1,103,2,29,39.42
+8,Ultra-Slim 7-in-1 USB-C Hub,Accessories,12.0,34.99,32.28,38.24,2,211,1,51,34.11
+9,Adjustable Aluminum Laptop Stand,Accessories,11.0,29.99,28.43,26.1,2,129,1,40,28.43
+10,Water-Resistant Outdoor Backpack,Travel,22.0,54.99,54.32,55.65,3,213,1,55,54.9
+1,Wireless Noise-Canceling Headphones,Electronics,45.0,99.99,109.86,92.02,3,162,3,40,105.6
+2,Smart Fitness Watch,Electronics,30.0,69.99,66.31,77.89,3,148,2,62,78.32
+3,Ergonomic Office Chair,Furniture,75.0,179.99,171.9,183.05,2,203,2,43,170.34
+4,RGB Mechanical Gaming Keyboard,Electronics,28.0,59.99,59.94,68.49,3,186,4,67,68.8
+5,Stainless Steel Thermal Water Bottle,Home & Kitchen,8.0,24.99,24.08,24.36,1,111,2,32,23.6
+6,Organic Cotton Running T-Shirt,Apparel,6.5,19.99,19.19,21.23,3,249,1,51,20.76
+7,Compact Cold Brew Coffee Maker,Home & Kitchen,15.0,39.99,43.73,40.68,1,77,3,25,38.53
+8,Ultra-Slim 7-in-1 USB-C Hub,Accessories,12.0,34.99,37.42,30.71,2,63,1,40,33.28
+9,Adjustable Aluminum Laptop Stand,Accessories,11.0,29.99,28.6,31.55,2,238,1,42,28.78
+10,Water-Resistant Outdoor Backpack,Travel,22.0,54.99,57.46,55.96,2,237,3,42,52.06
+1,Wireless Noise-Canceling Headphones,Electronics,45.0,99.99,96.05,112.26,1,63,1,27,100.34
+2,Smart Fitness Watch,Electronics,30.0,69.99,72.73,74.27,2,76,3,29,71.7
+3,Ergonomic Office Chair,Furniture,75.0,179.99,189.91,173.55,2,106,3,35,177.41
+4,RGB Mechanical Gaming Keyboard,Electronics,28.0,59.99,59.96,52.77,3,135,3,58,62.57
+5,Stainless Steel Thermal Water Bottle,Home & Kitchen,8.0,24.99,24.34,24.34,2,71,2,50,24.73
+6,Organic Cotton Running T-Shirt,Apparel,6.5,19.99,20.33,21.31,2,65,3,37,20.52
+7,Compact Cold Brew Coffee Maker,Home & Kitchen,15.0,39.99,37.83,40.83,1,155,3,28,38.66
+8,Ultra-Slim 7-in-1 USB-C Hub,Accessories,12.0,34.99,35.98,34.89,1,218,3,33,30.45
+9,Adjustable Aluminum Laptop Stand,Accessories,11.0,29.99,31.31,29.88,3,153,1,42,31.55
+10,Water-Resistant Outdoor Backpack,Travel,22.0,54.99,58.49,47.54,1,50,2,27,47.99
+1,Wireless Noise-Canceling Headphones,Electronics,45.0,99.99,93.01,91.55,2,30,4,54,107.53
+2,Smart Fitness Watch,Electronics,30.0,69.99,70.44,68.13,1,199,3,25,61.28
+3,Ergonomic Office Chair,Furniture,75.0,179.99,172.31,180.11,2,125,2,47,180.04
+4,RGB Mechanical Gaming Keyboard,Electronics,28.0,59.99,55.78,54.45,2,223,3,42,54.31
+5,Stainless Steel Thermal Water Bottle,Home & Kitchen,8.0,24.99,23.83,24.22,2,118,4,42,26.16
+6,Organic Cotton Running T-Shirt,Apparel,6.5,19.99,18.89,21.09,3,182,1,52,20.25
+7,Compact Cold Brew Coffee Maker,Home & Kitchen,15.0,39.99,39.02,40.62,1,17,2,38,39.96
+8,Ultra-Slim 7-in-1 USB-C Hub,Accessories,12.0,34.99,33.81,40.0,3,244,1,59,36.91
+9,Adjustable Aluminum Laptop Stand,Accessories,11.0,29.99,32.4,31.72,2,84,1,39,30.68
+10,Water-Resistant Outdoor Backpack,Travel,22.0,54.99,52.57,55.7,2,60,3,37,55.27
+1,Wireless Noise-Canceling Headphones,Electronics,45.0,99.99,90.3,91.21,1,225,4,43,90.61
+2,Smart Fitness Watch,Electronics,30.0,69.99,70.92,77.33,2,153,3,35,72.93
+3,Ergonomic Office Chair,Furniture,75.0,179.99,175.81,192.94,3,191,1,44,183.23
+4,RGB Mechanical Gaming Keyboard,Electronics,28.0,59.99,59.24,66.09,2,211,4,50,62.21
+5,Stainless Steel Thermal Water Bottle,Home & Kitchen,8.0,24.99,27.33,23.69,2,215,4,40,24.38
+6,Organic Cotton Running T-Shirt,Apparel,6.5,19.99,21.75,19.58,2,184,4,45,19.75
+7,Compact Cold Brew Coffee Maker,Home & Kitchen,15.0,39.99,36.68,41.41,3,197,1,61,41.39
+8,Ultra-Slim 7-in-1 USB-C Hub,Accessories,12.0,34.99,35.93,37.51,2,42,1,37,36.0
+9,Adjustable Aluminum Laptop Stand,Accessories,11.0,29.99,27.02,28.26,2,84,1,45,29.3
+10,Water-Resistant Outdoor Backpack,Travel,22.0,54.99,54.43,55.89,2,21,1,40,58.12
+1,Wireless Noise-Canceling Headphones,Electronics,45.0,99.99,97.07,87.78,2,98,4,56,100.81
+2,Smart Fitness Watch,Electronics,30.0,69.99,73.9,74.71,2,77,2,41,71.88
+3,Ergonomic Office Chair,Furniture,75.0,179.99,186.66,162.14,2,83,4,49,183.22
+4,RGB Mechanical Gaming Keyboard,Electronics,28.0,59.99,57.3,56.39,3,107,3,58,64.24
+5,Stainless Steel Thermal Water Bottle,Home & Kitchen,8.0,24.99,26.09,24.96,2,132,1,36,24.98
+6,Organic Cotton Running T-Shirt,Apparel,6.5,19.99,19.57,22.04,2,235,3,39,19.56
+7,Compact Cold Brew Coffee Maker,Home & Kitchen,15.0,39.99,39.51,39.16,3,181,2,60,40.44
+8,Ultra-Slim 7-in-1 USB-C Hub,Accessories,12.0,34.99,34.84,31.61,2,96,3,43,33.64
+9,Adjustable Aluminum Laptop Stand,Accessories,11.0,29.99,31.4,31.19,3,215,2,56,31.2
+10,Water-Resistant Outdoor Backpack,Travel,22.0,54.99,53.51,62.12,1,154,2,34,54.79
+1,Wireless Noise-Canceling Headphones,Electronics,45.0,99.99,100.99,113.58,2,196,2,40,99.1
+2,Smart Fitness Watch,Electronics,30.0,69.99,72.69,76.69,3,119,4,67,81.42
+3,Ergonomic Office Chair,Furniture,75.0,179.99,172.89,166.64,1,123,4,47,173.87
+4,RGB Mechanical Gaming Keyboard,Electronics,28.0,59.99,58.8,60.11,3,192,4,77,64.44
+5,Stainless Steel Thermal Water Bottle,Home & Kitchen,8.0,24.99,26.44,23.94,3,152,1,51,26.62
+6,Organic Cotton Running T-Shirt,Apparel,6.5,19.99,18.66,20.67,2,180,4,56,21.48
+7,Compact Cold Brew Coffee Maker,Home & Kitchen,15.0,39.99,43.72,37.97,3,42,1,49,42.6
+8,Ultra-Slim 7-in-1 USB-C Hub,Accessories,12.0,34.99,35.4,36.96,1,110,4,36,35.59
+9,Adjustable Aluminum Laptop Stand,Accessories,11.0,29.99,31.07,31.7,1,21,4,36,32.72
+10,Water-Resistant Outdoor Backpack,Travel,22.0,54.99,50.77,62.26,1,94,3,32,54.32
+1,Wireless Noise-Canceling Headphones,Electronics,45.0,99.99,94.13,99.48,2,127,4,52,105.77
+2,Smart Fitness Watch,Electronics,30.0,69.99,74.33,61.91,3,180,1,52,72.36
+3,Ergonomic Office Chair,Furniture,75.0,179.99,167.91,206.12,1,59,2,31,178.73
+4,RGB Mechanical Gaming Keyboard,Electronics,28.0,59.99,63.56,62.33,1,183,4,36,56.81
+5,Stainless Steel Thermal Water Bottle,Home & Kitchen,8.0,24.99,26.18,27.86,2,124,4,49,27.71
+6,Organic Cotton Running T-Shirt,Apparel,6.5,19.99,19.1,21.21,3,162,1,56,22.32
+7,Compact Cold Brew Coffee Maker,Home & Kitchen,15.0,39.99,40.29,38.38,1,44,3,24,37.72
+8,Ultra-Slim 7-in-1 USB-C Hub,Accessories,12.0,34.99,33.68,33.82,2,44,3,35,34.52
+9,Adjustable Aluminum Laptop Stand,Accessories,11.0,29.99,29.1,29.61,1,187,3,32,26.56
+10,Water-Resistant Outdoor Backpack,Travel,22.0,54.99,52.94,50.68,1,110,2,29,50.09
+1,Wireless Noise-Canceling Headphones,Electronics,45.0,99.99,98.35,89.13,2,62,4,47,101.38
+2,Smart Fitness Watch,Electronics,30.0,69.99,72.02,80.49,2,140,3,31,74.19
+3,Ergonomic Office Chair,Furniture,75.0,179.99,167.04,169.98,2,28,3,46,184.79
+4,RGB Mechanical Gaming Keyboard,Electronics,28.0,59.99,56.33,57.9,2,182,4,52,58.94
+5,Stainless Steel Thermal Water Bottle,Home & Kitchen,8.0,24.99,24.54,24.93,2,128,4,53,26.46
+6,Organic Cotton Running T-Shirt,Apparel,6.5,19.99,21.17,18.31,1,72,3,29,17.9
+7,Compact Cold Brew Coffee Maker,Home & Kitchen,15.0,39.99,39.65,42.9,3,155,1,50,44.33
+8,Ultra-Slim 7-in-1 USB-C Hub,Accessories,12.0,34.99,38.43,35.43,3,209,4,60,37.75
+9,Adjustable Aluminum Laptop Stand,Accessories,11.0,29.99,32.93,26.41,3,207,2,50,28.79
+10,Water-Resistant Outdoor Backpack,Travel,22.0,54.99,53.32,60.22,2,45,2,60,57.08
+1,Wireless Noise-Canceling Headphones,Electronics,45.0,99.99,94.19,107.12,2,235,4,55,102.47
+2,Smart Fitness Watch,Electronics,30.0,69.99,65.88,63.84,1,104,3,30,63.74
+3,Ergonomic Office Chair,Furniture,75.0,179.99,168.05,205.85,2,161,3,46,190.33
+4,RGB Mechanical Gaming Keyboard,Electronics,28.0,59.99,64.79,65.66,1,207,4,30,59.35
+5,Stainless Steel Thermal Water Bottle,Home & Kitchen,8.0,24.99,27.45,27.74,1,236,2,27,23.38
+6,Organic Cotton Running T-Shirt,Apparel,6.5,19.99,21.04,21.05,2,162,3,41,20.41
+7,Compact Cold Brew Coffee Maker,Home & Kitchen,15.0,39.99,41.01,38.49,1,218,1,20,35.09
+8,Ultra-Slim 7-in-1 USB-C Hub,Accessories,12.0,34.99,37.63,34.51,2,163,1,38,34.8
+9,Adjustable Aluminum Laptop Stand,Accessories,11.0,29.99,32.2,33.11,1,132,3,28,29.24
+10,Water-Resistant Outdoor Backpack,Travel,22.0,54.99,60.14,60.35,2,97,3,28,57.13
+1,Wireless Noise-Canceling Headphones,Electronics,45.0,99.99,96.75,102.33,2,139,3,44,100.93
+2,Smart Fitness Watch,Electronics,30.0,69.99,63.63,72.64,3,19,1,56,81.8
+3,Ergonomic Office Chair,Furniture,75.0,179.99,167.68,177.64,3,124,2,76,195.9
+4,RGB Mechanical Gaming Keyboard,Electronics,28.0,59.99,57.61,66.73,3,38,3,55,69.94
+5,Stainless Steel Thermal Water Bottle,Home & Kitchen,8.0,24.99,24.35,28.02,1,116,3,26,24.56
+6,Organic Cotton Running T-Shirt,Apparel,6.5,19.99,18.36,17.56,1,34,2,27,18.85
+7,Compact Cold Brew Coffee Maker,Home & Kitchen,15.0,39.99,40.15,39.33,1,102,1,30,36.76
+8,Ultra-Slim 7-in-1 USB-C Hub,Accessories,12.0,34.99,31.99,33.76,2,41,1,42,34.5
+9,Adjustable Aluminum Laptop Stand,Accessories,11.0,29.99,28.87,33.42,1,213,2,28,27.2
+10,Water-Resistant Outdoor Backpack,Travel,22.0,54.99,55.69,56.81,1,104,2,25,52.66
+1,Wireless Noise-Canceling Headphones,Electronics,45.0,99.99,93.02,97.34,2,235,2,49,92.99
+2,Smart Fitness Watch,Electronics,30.0,69.99,73.52,71.87,2,124,3,36,70.74
+3,Ergonomic Office Chair,Furniture,75.0,179.99,190.47,166.37,2,78,3,36,174.54
+4,RGB Mechanical Gaming Keyboard,Electronics,28.0,59.99,64.16,62.84,2,147,2,34,61.13
+5,Stainless Steel Thermal Water Bottle,Home & Kitchen,8.0,24.99,26.23,23.46,1,244,2,26,21.54
+6,Organic Cotton Running T-Shirt,Apparel,6.5,19.99,20.37,20.16,3,107,3,51,21.19
+7,Compact Cold Brew Coffee Maker,Home & Kitchen,15.0,39.99,42.88,40.81,2,189,2,40,37.9
+8,Ultra-Slim 7-in-1 USB-C Hub,Accessories,12.0,34.99,36.88,29.92,1,82,2,18,30.38
+9,Adjustable Aluminum Laptop Stand,Accessories,11.0,29.99,27.35,32.59,2,175,4,52,32.89
+10,Water-Resistant Outdoor Backpack,Travel,22.0,54.99,56.54,55.61,1,36,3,27,53.54
+1,Wireless Noise-Canceling Headphones,Electronics,45.0,99.99,108.41,114.22,1,98,4,25,105.97
+2,Smart Fitness Watch,Electronics,30.0,69.99,71.99,66.0,2,231,2,38,64.29
+3,Ergonomic Office Chair,Furniture,75.0,179.99,164.08,157.65,2,131,1,40,171.05
+4,RGB Mechanical Gaming Keyboard,Electronics,28.0,59.99,62.88,53.14,2,194,1,41,53.81
+5,Stainless Steel Thermal Water Bottle,Home & Kitchen,8.0,24.99,23.31,28.39,2,215,3,42,24.77
+6,Organic Cotton Running T-Shirt,Apparel,6.5,19.99,21.11,18.6,3,212,1,51,19.49
+7,Compact Cold Brew Coffee Maker,Home & Kitchen,15.0,39.99,39.42,40.28,2,162,1,33,40.11
+8,Ultra-Slim 7-in-1 USB-C Hub,Accessories,12.0,34.99,31.88,38.76,1,55,3,30,34.71
+9,Adjustable Aluminum Laptop Stand,Accessories,11.0,29.99,32.35,31.56,1,204,1,31,26.76
+10,Water-Resistant Outdoor Backpack,Travel,22.0,54.99,54.68,53.06,1,234,1,28,48.01
+1,Wireless Noise-Canceling Headphones,Electronics,45.0,99.99,108.27,107.21,2,97,2,34,102.88
+2,Smart Fitness Watch,Electronics,30.0,69.99,66.79,61.13,2,143,1,43,66.45
+3,Ergonomic Office Chair,Furniture,75.0,179.99,168.45,196.42,3,117,1,63,203.11
+4,RGB Mechanical Gaming Keyboard,Electronics,28.0,59.99,57.72,52.55,2,109,2,40,57.01
+5,Stainless Steel Thermal Water Bottle,Home & Kitchen,8.0,24.99,23.95,27.12,2,77,4,45,27.39
+6,Organic Cotton Running T-Shirt,Apparel,6.5,19.99,21.98,21.64,2,154,2,46,20.65
+7,Compact Cold Brew Coffee Maker,Home & Kitchen,15.0,39.99,37.2,45.18,1,153,3,25,38.72
+8,Ultra-Slim 7-in-1 USB-C Hub,Accessories,12.0,34.99,33.84,37.71,2,203,3,35,33.91
+9,Adjustable Aluminum Laptop Stand,Accessories,11.0,29.99,27.61,30.26,1,140,1,31,28.03
+10,Water-Resistant Outdoor Backpack,Travel,22.0,54.99,49.97,50.56,3,120,3,59,57.1
+1,Wireless Noise-Canceling Headphones,Electronics,45.0,99.99,104.95,102.41,2,178,4,51,107.02
+2,Smart Fitness Watch,Electronics,30.0,69.99,69.08,79.74,1,81,3,29,70.72
+3,Ergonomic Office Chair,Furniture,75.0,179.99,176.14,197.91,2,130,3,40,187.16
+4,RGB Mechanical Gaming Keyboard,Electronics,28.0,59.99,55.62,64.85,1,42,2,43,58.09
+5,Stainless Steel Thermal Water Bottle,Home & Kitchen,8.0,24.99,24.06,22.15,2,212,2,41,22.42
+6,Organic Cotton Running T-Shirt,Apparel,6.5,19.99,21.4,17.53,3,92,1,50,20.16
+7,Compact Cold Brew Coffee Maker,Home & Kitchen,15.0,39.99,42.84,35.77,2,106,4,39,40.6
+8,Ultra-Slim 7-in-1 USB-C Hub,Accessories,12.0,34.99,33.31,40.14,1,118,4,36,37.0
+9,Adjustable Aluminum Laptop Stand,Accessories,11.0,29.99,30.29,26.34,1,218,2,31,25.51
+10,Water-Resistant Outdoor Backpack,Travel,22.0,54.99,51.94,50.01,2,190,1,41,49.82
+1,Wireless Noise-Canceling Headphones,Electronics,45.0,99.99,101.64,92.76,3,20,1,53,111.18
+2,Smart Fitness Watch,Electronics,30.0,69.99,64.28,77.28,3,46,1,64,79.99
+3,Ergonomic Office Chair,Furniture,75.0,179.99,163.81,202.89,2,200,4,52,188.47
+4,RGB Mechanical Gaming Keyboard,Electronics,28.0,59.99,59.11,57.36,3,85,3,54,63.2
+5,Stainless Steel Thermal Water Bottle,Home & Kitchen,8.0,24.99,23.23,25.85,2,180,3,33,25.33
+6,Organic Cotton Running T-Shirt,Apparel,6.5,19.99,19.91,17.52,2,122,2,44,19.0
+7,Compact Cold Brew Coffee Maker,Home & Kitchen,15.0,39.99,41.13,43.56,1,220,1,32,36.38
+8,Ultra-Slim 7-in-1 USB-C Hub,Accessories,12.0,34.99,35.3,34.83,3,143,3,52,37.35
+9,Adjustable Aluminum Laptop Stand,Accessories,11.0,29.99,28.07,28.36,1,244,3,40,25.96
+10,Water-Resistant Outdoor Backpack,Travel,22.0,54.99,57.92,63.23,3,40,2,62,63.11
+1,Wireless Noise-Canceling Headphones,Electronics,45.0,99.99,95.32,109.48,3,29,2,55,116.54
+2,Smart Fitness Watch,Electronics,30.0,69.99,76.08,80.31,1,75,3,18,70.58
+3,Ergonomic Office Chair,Furniture,75.0,179.99,187.1,202.34,1,194,3,30,167.39
+4,RGB Mechanical Gaming Keyboard,Electronics,28.0,59.99,56.25,68.77,3,141,3,56,67.23
+5,Stainless Steel Thermal Water Bottle,Home & Kitchen,8.0,24.99,22.68,21.66,2,20,4,65,26.33
+6,Organic Cotton Running T-Shirt,Apparel,6.5,19.99,18.8,17.77,2,250,3,41,17.96
+7,Compact Cold Brew Coffee Maker,Home & Kitchen,15.0,39.99,36.47,35.76,2,51,1,47,38.3
+8,Ultra-Slim 7-in-1 USB-C Hub,Accessories,12.0,34.99,38.21,33.66,3,116,1,40,36.76
+9,Adjustable Aluminum Laptop Stand,Accessories,11.0,29.99,28.93,34.27,2,126,4,50,33.6
+10,Water-Resistant Outdoor Backpack,Travel,22.0,54.99,60.15,58.18,3,216,3,45,56.12
+1,Wireless Noise-Canceling Headphones,Electronics,45.0,99.99,101.77,90.25,2,191,3,41,90.33
+2,Smart Fitness Watch,Electronics,30.0,69.99,76.27,79.41,2,212,1,38,69.33
+3,Ergonomic Office Chair,Furniture,75.0,179.99,168.55,170.17,3,171,2,65,189.23
+4,RGB Mechanical Gaming Keyboard,Electronics,28.0,59.99,57.96,52.39,2,96,2,44,56.95
+5,Stainless Steel Thermal Water Bottle,Home & Kitchen,8.0,24.99,25.67,28.46,3,186,3,48,26.34
+6,Organic Cotton Running T-Shirt,Apparel,6.5,19.99,18.26,18.53,1,15,1,30,19.06
+7,Compact Cold Brew Coffee Maker,Home & Kitchen,15.0,39.99,41.85,45.62,3,141,4,63,48.87
+8,Ultra-Slim 7-in-1 USB-C Hub,Accessories,12.0,34.99,37.01,35.81,3,72,2,60,37.88
+9,Adjustable Aluminum Laptop Stand,Accessories,11.0,29.99,31.78,25.79,1,81,1,26,26.47
+10,Water-Resistant Outdoor Backpack,Travel,22.0,54.99,57.54,55.77,3,38,3,51,62.7
+1,Wireless Noise-Canceling Headphones,Electronics,45.0,99.99,102.26,99.47,1,182,2,26,86.49
+2,Smart Fitness Watch,Electronics,30.0,69.99,67.63,79.95,2,156,3,37,73.97
+3,Ergonomic Office Chair,Furniture,75.0,179.99,185.77,169.05,1,115,4,35,174.44
+4,RGB Mechanical Gaming Keyboard,Electronics,28.0,59.99,57.53,62.91,2,66,1,43,61.16
+5,Stainless Steel Thermal Water Bottle,Home & Kitchen,8.0,24.99,22.62,22.52,2,35,4,58,26.71
+6,Organic Cotton Running T-Shirt,Apparel,6.5,19.99,19.58,19.92,2,38,4,48,22.22
+7,Compact Cold Brew Coffee Maker,Home & Kitchen,15.0,39.99,37.47,44.61,2,129,1,40,41.84
+8,Ultra-Slim 7-in-1 USB-C Hub,Accessories,12.0,34.99,33.07,32.56,1,207,1,33,29.53
+9,Adjustable Aluminum Laptop Stand,Accessories,11.0,29.99,29.05,30.36,3,165,2,56,32.88
+10,Water-Resistant Outdoor Backpack,Travel,22.0,54.99,54.1,55.58,3,136,2,60,59.3
+1,Wireless Noise-Canceling Headphones,Electronics,45.0,99.99,91.57,112.07,2,143,2,54,104.82
+2,Smart Fitness Watch,Electronics,30.0,69.99,65.41,80.16,3,221,2,71,73.53
+3,Ergonomic Office Chair,Furniture,75.0,179.99,177.23,206.36,2,225,2,46,179.11
+4,RGB Mechanical Gaming Keyboard,Electronics,28.0,59.99,64.92,67.44,1,114,4,28,62.88
+5,Stainless Steel Thermal Water Bottle,Home & Kitchen,8.0,24.99,26.77,25.14,3,18,4,65,30.06
+6,Organic Cotton Running T-Shirt,Apparel,6.5,19.99,20.32,22.78,1,42,1,27,20.08
+7,Compact Cold Brew Coffee Maker,Home & Kitchen,15.0,39.99,42.93,44.55,3,82,4,60,47.59
+8,Ultra-Slim 7-in-1 USB-C Hub,Accessories,12.0,34.99,32.7,33.97,2,189,4,50,34.46
+9,Adjustable Aluminum Laptop Stand,Accessories,11.0,29.99,27.22,33.49,2,75,1,42,31.39
+10,Water-Resistant Outdoor Backpack,Travel,22.0,54.99,59.36,47.08,3,92,3,39,55.14
+1,Wireless Noise-Canceling Headphones,Electronics,45.0,99.99,99.82,105.87,1,237,2,38,90.21
+2,Smart Fitness Watch,Electronics,30.0,69.99,74.55,65.15,2,180,1,43,68.05
+3,Ergonomic Office Chair,Furniture,75.0,179.99,168.76,164.41,3,204,4,76,188.9
+4,RGB Mechanical Gaming Keyboard,Electronics,28.0,59.99,60.17,53.85,2,144,4,41,60.99
+5,Stainless Steel Thermal Water Bottle,Home & Kitchen,8.0,24.99,23.17,27.62,3,22,2,70,29.86
+6,Organic Cotton Running T-Shirt,Apparel,6.5,19.99,18.99,19.73,3,195,2,72,19.88
+7,Compact Cold Brew Coffee Maker,Home & Kitchen,15.0,39.99,42.58,40.05,2,46,1,35,40.01
+8,Ultra-Slim 7-in-1 USB-C Hub,Accessories,12.0,34.99,34.61,39.82,2,156,3,43,36.92
+9,Adjustable Aluminum Laptop Stand,Accessories,11.0,29.99,29.06,33.03,2,227,1,38,29.33
+10,Water-Resistant Outdoor Backpack,Travel,22.0,54.99,51.28,56.18,3,234,2,71,56.43
+1,Wireless Noise-Canceling Headphones,Electronics,45.0,99.99,103.54,93.06,2,20,1,34,102.08
+2,Smart Fitness Watch,Electronics,30.0,69.99,65.42,76.31,1,170,3,29,68.78
+3,Ergonomic Office Chair,Furniture,75.0,179.99,187.53,167.86,3,233,3,47,175.35
+4,RGB Mechanical Gaming Keyboard,Electronics,28.0,59.99,60.24,62.21,2,16,3,38,63.92
+5,Stainless Steel Thermal Water Bottle,Home & Kitchen,8.0,24.99,25.3,25.69,2,190,1,33,23.75
+6,Organic Cotton Running T-Shirt,Apparel,6.5,19.99,19.1,18.94,2,182,3,40,18.4
+7,Compact Cold Brew Coffee Maker,Home & Kitchen,15.0,39.99,37.5,40.2,1,29,4,34,42.32
+8,Ultra-Slim 7-in-1 USB-C Hub,Accessories,12.0,34.99,36.08,40.21,2,122,4,42,39.3
+9,Adjustable Aluminum Laptop Stand,Accessories,11.0,29.99,29.32,25.81,2,161,2,41,28.32
+10,Water-Resistant Outdoor Backpack,Travel,22.0,54.99,57.04,57.27,2,186,3,41,52.55
+1,Wireless Noise-Canceling Headphones,Electronics,45.0,99.99,100.14,110.35,3,239,2,60,106.41
+2,Smart Fitness Watch,Electronics,30.0,69.99,73.14,71.23,3,189,3,54,71.74
+3,Ergonomic Office Chair,Furniture,75.0,179.99,169.99,165.05,3,122,3,53,186.75
+4,RGB Mechanical Gaming Keyboard,Electronics,28.0,59.99,55.4,51.96,2,163,1,45,56.78
+5,Stainless Steel Thermal Water Bottle,Home & Kitchen,8.0,24.99,24.85,22.7,1,189,4,31,22.9
+6,Organic Cotton Running T-Shirt,Apparel,6.5,19.99,18.59,22.94,2,160,4,54,22.44
+7,Compact Cold Brew Coffee Maker,Home & Kitchen,15.0,39.99,37.14,44.34,1,35,4,32,43.31
+8,Ultra-Slim 7-in-1 USB-C Hub,Accessories,12.0,34.99,31.9,34.49,1,213,2,44,30.84
+9,Adjustable Aluminum Laptop Stand,Accessories,11.0,29.99,27.94,32.56,3,48,4,74,36.11
+10,Water-Resistant Outdoor Backpack,Travel,22.0,54.99,53.71,47.36,1,110,1,24,49.64
+1,Wireless Noise-Canceling Headphones,Electronics,45.0,99.99,105.13,100.92,1,16,2,30,98.27
+2,Smart Fitness Watch,Electronics,30.0,69.99,64.43,70.06,2,31,1,50,73.52
+3,Ergonomic Office Chair,Furniture,75.0,179.99,172.73,168.7,2,167,3,34,175.47
+4,RGB Mechanical Gaming Keyboard,Electronics,28.0,59.99,55.6,68.92,2,207,2,51,59.75
+5,Stainless Steel Thermal Water Bottle,Home & Kitchen,8.0,24.99,23.32,28.04,3,19,2,69,29.19
+6,Organic Cotton Running T-Shirt,Apparel,6.5,19.99,18.08,20.02,1,197,1,41,17.58
+7,Compact Cold Brew Coffee Maker,Home & Kitchen,15.0,39.99,41.11,43.24,2,167,1,33,41.29
+8,Ultra-Slim 7-in-1 USB-C Hub,Accessories,12.0,34.99,31.63,36.98,2,112,1,38,35.79
+9,Adjustable Aluminum Laptop Stand,Accessories,11.0,29.99,30.27,29.76,1,192,1,24,26.6
+10,Water-Resistant Outdoor Backpack,Travel,22.0,54.99,52.46,56.73,1,227,1,33,49.23
+1,Wireless Noise-Canceling Headphones,Electronics,45.0,99.99,102.34,93.47,3,142,2,54,106.3
+2,Smart Fitness Watch,Electronics,30.0,69.99,76.61,67.01,2,56,1,29,68.8
+3,Ergonomic Office Chair,Furniture,75.0,179.99,181.72,202.15,2,138,3,37,188.85
+4,RGB Mechanical Gaming Keyboard,Electronics,28.0,59.99,55.06,52.98,2,141,2,49,57.19
+5,Stainless Steel Thermal Water Bottle,Home & Kitchen,8.0,24.99,27.24,27.09,1,200,1,28,22.78
+6,Organic Cotton Running T-Shirt,Apparel,6.5,19.99,21.9,18.58,1,223,2,24,17.44
+7,Compact Cold Brew Coffee Maker,Home & Kitchen,15.0,39.99,42.81,38.31,2,124,1,40,39.32
+8,Ultra-Slim 7-in-1 USB-C Hub,Accessories,12.0,34.99,31.81,38.68,2,58,3,46,36.47
+9,Adjustable Aluminum Laptop Stand,Accessories,11.0,29.99,29.14,29.43,2,239,1,36,27.98
+10,Water-Resistant Outdoor Backpack,Travel,22.0,54.99,50.74,53.34,2,228,4,58,54.13
+1,Wireless Noise-Canceling Headphones,Electronics,45.0,99.99,103.79,99.34,2,241,2,46,93.75
+2,Smart Fitness Watch,Electronics,30.0,69.99,63.81,79.28,1,121,4,43,74.39
+3,Ergonomic Office Chair,Furniture,75.0,179.99,186.41,162.78,2,106,1,41,173.11
+4,RGB Mechanical Gaming Keyboard,Electronics,28.0,59.99,62.72,67.04,2,139,1,29,62.81
+5,Stainless Steel Thermal Water Bottle,Home & Kitchen,8.0,24.99,26.93,24.55,1,182,3,32,21.95
+6,Organic Cotton Running T-Shirt,Apparel,6.5,19.99,20.96,21.33,1,186,3,25,18.15
+7,Compact Cold Brew Coffee Maker,Home & Kitchen,15.0,39.99,41.5,41.41,2,201,2,36,38.12
+8,Ultra-Slim 7-in-1 USB-C Hub,Accessories,12.0,34.99,35.98,31.3,3,243,1,51,33.1
+9,Adjustable Aluminum Laptop Stand,Accessories,11.0,29.99,32.6,30.04,2,141,2,43,30.01
+10,Water-Resistant Outdoor Backpack,Travel,22.0,54.99,52.14,62.75,1,72,4,39,57.65
+1,Wireless Noise-Canceling Headphones,Electronics,45.0,99.99,94.69,98.76,3,129,1,59,105.06
+2,Smart Fitness Watch,Electronics,30.0,69.99,69.95,73.21,1,120,1,23,67.16
+3,Ergonomic Office Chair,Furniture,75.0,179.99,162.0,157.9,2,173,3,47,171.15
+4,RGB Mechanical Gaming Keyboard,Electronics,28.0,59.99,61.84,59.2,2,226,1,33,56.09
+5,Stainless Steel Thermal Water Bottle,Home & Kitchen,8.0,24.99,26.57,27.57,2,211,4,45,25.93
+6,Organic Cotton Running T-Shirt,Apparel,6.5,19.99,19.8,17.58,2,15,3,34,19.98
+7,Compact Cold Brew Coffee Maker,Home & Kitchen,15.0,39.99,38.83,41.59,3,155,3,54,42.99
+8,Ultra-Slim 7-in-1 USB-C Hub,Accessories,12.0,34.99,32.47,37.27,2,42,3,40,35.9
+9,Adjustable Aluminum Laptop Stand,Accessories,11.0,29.99,30.65,27.18,3,115,2,53,31.34
+10,Water-Resistant Outdoor Backpack,Travel,22.0,54.99,50.68,53.58,3,229,1,61,55.69
+1,Wireless Noise-Canceling Headphones,Electronics,45.0,99.99,99.0,104.74,3,49,4,77,116.39
+2,Smart Fitness Watch,Electronics,30.0,69.99,69.05,71.78,3,214,2,62,72.09
+3,Ergonomic Office Chair,Furniture,75.0,179.99,168.24,197.01,1,183,3,25,168.42
+4,RGB Mechanical Gaming Keyboard,Electronics,28.0,59.99,64.98,64.71,2,102,3,34,61.88
+5,Stainless Steel Thermal Water Bottle,Home & Kitchen,8.0,24.99,24.75,22.24,2,194,3,41,22.46
+6,Organic Cotton Running T-Shirt,Apparel,6.5,19.99,19.25,21.41,2,70,2,42,20.56
+7,Compact Cold Brew Coffee Maker,Home & Kitchen,15.0,39.99,37.67,42.56,2,250,2,53,38.56
+8,Ultra-Slim 7-in-1 USB-C Hub,Accessories,12.0,34.99,38.2,35.03,2,97,1,33,35.01
+9,Adjustable Aluminum Laptop Stand,Accessories,11.0,29.99,31.55,30.55,2,185,4,42,30.11
+10,Water-Resistant Outdoor Backpack,Travel,22.0,54.99,55.36,61.22,2,18,1,30,60.36
+1,Wireless Noise-Canceling Headphones,Electronics,45.0,99.99,90.5,89.35,2,66,3,43,95.73
+2,Smart Fitness Watch,Electronics,30.0,69.99,67.0,64.75,3,191,3,53,67.66
+3,Ergonomic Office Chair,Furniture,75.0,179.99,181.47,172.36,2,172,2,43,176.94
+4,RGB Mechanical Gaming Keyboard,Electronics,28.0,59.99,56.84,65.11,3,88,1,51,68.01
+5,Stainless Steel Thermal Water Bottle,Home & Kitchen,8.0,24.99,24.43,28.41,3,95,1,57,28.49
+6,Organic Cotton Running T-Shirt,Apparel,6.5,19.99,21.11,22.21,3,248,3,49,21.35
+7,Compact Cold Brew Coffee Maker,Home & Kitchen,15.0,39.99,40.36,41.23,3,64,3,41,42.66
+8,Ultra-Slim 7-in-1 USB-C Hub,Accessories,12.0,34.99,38.23,37.46,1,25,4,34,37.29
+9,Adjustable Aluminum Laptop Stand,Accessories,11.0,29.99,28.58,26.94,3,16,3,47,31.78
+10,Water-Resistant Outdoor Backpack,Travel,22.0,54.99,59.7,56.59,3,175,3,49,59.78
+1,Wireless Noise-Canceling Headphones,Electronics,45.0,99.99,101.44,95.73,3,96,2,65,107.06
+2,Smart Fitness Watch,Electronics,30.0,69.99,65.22,70.89,2,104,2,46,70.35
+3,Ergonomic Office Chair,Furniture,75.0,179.99,193.79,188.81,2,90,2,45,183.52
+4,RGB Mechanical Gaming Keyboard,Electronics,28.0,59.99,59.69,61.09,3,181,1,51,59.97
+5,Stainless Steel Thermal Water Bottle,Home & Kitchen,8.0,24.99,24.22,23.04,2,250,2,51,22.76
+6,Organic Cotton Running T-Shirt,Apparel,6.5,19.99,19.27,22.48,3,113,3,54,22.6
+7,Compact Cold Brew Coffee Maker,Home & Kitchen,15.0,39.99,38.25,44.92,3,110,4,70,48.15
+8,Ultra-Slim 7-in-1 USB-C Hub,Accessories,12.0,34.99,33.73,30.61,1,212,1,28,29.53
+9,Adjustable Aluminum Laptop Stand,Accessories,11.0,29.99,28.26,31.16,1,190,4,39,28.93
+10,Water-Resistant Outdoor Backpack,Travel,22.0,54.99,59.15,58.97,2,224,1,32,53.19
+1,Wireless Noise-Canceling Headphones,Electronics,45.0,99.99,104.93,89.6,2,99,1,36,95.83
+2,Smart Fitness Watch,Electronics,30.0,69.99,74.11,71.21,2,73,3,35,70.48
+3,Ergonomic Office Chair,Furniture,75.0,179.99,176.66,177.35,2,95,1,37,178.93
+4,RGB Mechanical Gaming Keyboard,Electronics,28.0,59.99,54.06,63.95,1,205,1,31,54.87
+5,Stainless Steel Thermal Water Bottle,Home & Kitchen,8.0,24.99,22.85,28.2,1,216,3,27,23.64
+6,Organic Cotton Running T-Shirt,Apparel,6.5,19.99,19.52,21.92,1,55,2,29,19.21
+7,Compact Cold Brew Coffee Maker,Home & Kitchen,15.0,39.99,39.12,43.56,2,177,2,42,41.42
+8,Ultra-Slim 7-in-1 USB-C Hub,Accessories,12.0,34.99,38.25,38.84,2,17,2,47,38.36
+9,Adjustable Aluminum Laptop Stand,Accessories,11.0,29.99,27.73,25.54,2,152,1,39,28.21
+10,Water-Resistant Outdoor Backpack,Travel,22.0,54.99,59.43,52.41,2,180,2,46,53.96
+1,Wireless Noise-Canceling Headphones,Electronics,45.0,99.99,93.21,91.61,3,64,1,61,105.59
+2,Smart Fitness Watch,Electronics,30.0,69.99,74.91,79.07,3,133,1,55,78.37
+3,Ergonomic Office Chair,Furniture,75.0,179.99,164.42,158.29,2,139,3,39,171.31
+4,RGB Mechanical Gaming Keyboard,Electronics,28.0,59.99,56.8,56.12,1,64,3,33,54.9
+5,Stainless Steel Thermal Water Bottle,Home & Kitchen,8.0,24.99,24.13,26.19,2,54,3,43,25.47
+6,Organic Cotton Running T-Shirt,Apparel,6.5,19.99,18.67,18.87,3,197,4,67,20.71
+7,Compact Cold Brew Coffee Maker,Home & Kitchen,15.0,39.99,38.87,42.14,2,137,4,45,43.3
+8,Ultra-Slim 7-in-1 USB-C Hub,Accessories,12.0,34.99,34.9,30.88,2,35,3,40,35.01
+9,Adjustable Aluminum Laptop Stand,Accessories,11.0,29.99,32.14,26.75,2,82,1,33,28.69
+10,Water-Resistant Outdoor Backpack,Travel,22.0,54.99,58.83,57.16,3,163,4,55,64.45
+1,Wireless Noise-Canceling Headphones,Electronics,45.0,99.99,94.25,86.09,2,243,4,52,94.09
+2,Smart Fitness Watch,Electronics,30.0,69.99,68.49,78.21,2,234,3,37,68.88
+3,Ergonomic Office Chair,Furniture,75.0,179.99,166.81,180.05,1,108,1,25,171.42
+4,RGB Mechanical Gaming Keyboard,Electronics,28.0,59.99,61.36,53.98,2,129,2,36,57.59
+5,Stainless Steel Thermal Water Bottle,Home & Kitchen,8.0,24.99,23.39,28.35,2,52,4,55,27.91
+6,Organic Cotton Running T-Shirt,Apparel,6.5,19.99,21.04,18.38,2,74,1,35,19.35
+7,Compact Cold Brew Coffee Maker,Home & Kitchen,15.0,39.99,41.34,40.2,3,114,4,74,44.69
+8,Ultra-Slim 7-in-1 USB-C Hub,Accessories,12.0,34.99,36.03,30.83,3,177,3,47,36.38
+9,Adjustable Aluminum Laptop Stand,Accessories,11.0,29.99,28.57,30.39,1,182,4,33,28.64
+10,Water-Resistant Outdoor Backpack,Travel,22.0,54.99,55.17,52.95,3,147,4,74,61.31
+1,Wireless Noise-Canceling Headphones,Electronics,45.0,99.99,107.34,99.6,2,169,1,32,99.83
+2,Smart Fitness Watch,Electronics,30.0,69.99,65.31,61.11,2,69,2,48,66.44
+3,Ergonomic Office Chair,Furniture,75.0,179.99,168.72,172.55,2,45,2,44,177.01
+4,RGB Mechanical Gaming Keyboard,Electronics,28.0,59.99,55.35,63.14,2,166,2,50,61.25
+5,Stainless Steel Thermal Water Bottle,Home & Kitchen,8.0,24.99,25.73,24.32,1,47,2,32,23.63
+6,Organic Cotton Running T-Shirt,Apparel,6.5,19.99,18.58,17.99,3,147,4,80,21.97
+7,Compact Cold Brew Coffee Maker,Home & Kitchen,15.0,39.99,40.5,34.21,2,184,3,40,35.42
+8,Ultra-Slim 7-in-1 USB-C Hub,Accessories,12.0,34.99,35.74,34.69,2,71,4,47,36.96
+9,Adjustable Aluminum Laptop Stand,Accessories,11.0,29.99,30.59,32.64,3,61,3,54,34.03
+10,Water-Resistant Outdoor Backpack,Travel,22.0,54.99,56.05,47.88,2,48,1,42,52.15
+1,Wireless Noise-Canceling Headphones,Electronics,45.0,99.99,90.32,100.67,3,190,4,82,105.78
+2,Smart Fitness Watch,Electronics,30.0,69.99,75.61,72.09,3,151,1,43,74.7
+3,Ergonomic Office Chair,Furniture,75.0,179.99,185.73,201.7,2,15,4,44,209.99
+4,RGB Mechanical Gaming Keyboard,Electronics,28.0,59.99,54.51,60.53,1,220,4,39,57.08
+5,Stainless Steel Thermal Water Bottle,Home & Kitchen,8.0,24.99,24.4,25.66,2,209,1,36,23.74
+6,Organic Cotton Running T-Shirt,Apparel,6.5,19.99,21.05,22.45,1,168,4,34,20.68
+7,Compact Cold Brew Coffee Maker,Home & Kitchen,15.0,39.99,36.03,42.91,1,148,1,26,38.2
+8,Ultra-Slim 7-in-1 USB-C Hub,Accessories,12.0,34.99,37.12,34.03,1,124,3,24,32.2
+9,Adjustable Aluminum Laptop Stand,Accessories,11.0,29.99,30.21,30.57,2,189,4,49,30.11
+10,Water-Resistant Outdoor Backpack,Travel,22.0,54.99,58.11,54.7,2,157,4,42,58.17
+1,Wireless Noise-Canceling Headphones,Electronics,45.0,99.99,95.07,94.19,2,195,4,52,97.32
+2,Smart Fitness Watch,Electronics,30.0,69.99,72.22,75.19,2,194,2,34,67.75
+3,Ergonomic Office Chair,Furniture,75.0,179.99,165.6,180.44,3,220,1,64,177.87
+4,RGB Mechanical Gaming Keyboard,Electronics,28.0,59.99,55.08,53.61,3,126,1,68,60.49
+5,Stainless Steel Thermal Water Bottle,Home & Kitchen,8.0,24.99,23.6,21.84,1,113,4,34,23.86
+6,Organic Cotton Running T-Shirt,Apparel,6.5,19.99,20.38,22.66,3,178,4,65,23.93
+7,Compact Cold Brew Coffee Maker,Home & Kitchen,15.0,39.99,37.6,41.87,3,88,2,72,43.83
+8,Ultra-Slim 7-in-1 USB-C Hub,Accessories,12.0,34.99,33.11,31.52,1,76,1,29,32.23
+9,Adjustable Aluminum Laptop Stand,Accessories,11.0,29.99,27.51,27.97,2,186,4,53,29.08
+10,Water-Resistant Outdoor Backpack,Travel,22.0,54.99,49.66,58.35,3,155,3,62,61.2
+1,Wireless Noise-Canceling Headphones,Electronics,45.0,99.99,101.17,102.48,2,223,3,38,94.93
+2,Smart Fitness Watch,Electronics,30.0,69.99,69.36,67.97,1,59,4,45,68.95
+3,Ergonomic Office Chair,Furniture,75.0,179.99,182.1,180.16,2,44,3,42,180.06
+4,RGB Mechanical Gaming Keyboard,Electronics,28.0,59.99,60.89,63.48,3,159,4,63,70.83
+5,Stainless Steel Thermal Water Bottle,Home & Kitchen,8.0,24.99,26.28,28.45,2,132,1,32,26.37
+6,Organic Cotton Running T-Shirt,Apparel,6.5,19.99,19.52,21.72,1,194,2,32,18.51
+7,Compact Cold Brew Coffee Maker,Home & Kitchen,15.0,39.99,39.29,38.23,2,194,3,38,36.93
+8,Ultra-Slim 7-in-1 USB-C Hub,Accessories,12.0,34.99,36.21,38.36,1,60,4,35,35.92
+9,Adjustable Aluminum Laptop Stand,Accessories,11.0,29.99,28.3,30.65,1,206,2,30,27.0
+10,Water-Resistant Outdoor Backpack,Travel,22.0,54.99,59.09,50.15,1,78,3,24,49.14
+1,Wireless Noise-Canceling Headphones,Electronics,45.0,99.99,92.12,112.59,2,184,4,50,104.65
+2,Smart Fitness Watch,Electronics,30.0,69.99,70.57,60.38,2,173,3,33,66.15
+3,Ergonomic Office Chair,Furniture,75.0,179.99,179.71,206.2,3,237,3,41,196.2
+4,RGB Mechanical Gaming Keyboard,Electronics,28.0,59.99,57.35,54.99,2,28,4,53,64.54
+5,Stainless Steel Thermal Water Bottle,Home & Kitchen,8.0,24.99,24.88,25.3,2,115,2,42,25.11
+6,Organic Cotton Running T-Shirt,Apparel,6.5,19.99,20.06,18.88,1,187,2,31,17.18
+7,Compact Cold Brew Coffee Maker,Home & Kitchen,15.0,39.99,36.8,38.33,3,62,3,59,42.5
+8,Ultra-Slim 7-in-1 USB-C Hub,Accessories,12.0,34.99,34.05,34.98,1,194,3,32,30.74
+9,Adjustable Aluminum Laptop Stand,Accessories,11.0,29.99,29.39,29.55,2,162,2,47,29.81
+10,Water-Resistant Outdoor Backpack,Travel,22.0,54.99,58.33,55.9,3,65,2,51,60.34
+1,Wireless Noise-Canceling Headphones,Electronics,45.0,99.99,104.76,99.18,1,122,4,38,99.86
+2,Smart Fitness Watch,Electronics,30.0,69.99,70.47,66.12,2,79,1,43,68.44
+3,Ergonomic Office Chair,Furniture,75.0,179.99,176.33,190.28,1,223,3,21,162.33
+4,RGB Mechanical Gaming Keyboard,Electronics,28.0,59.99,58.01,57.49,2,222,3,40,55.45
+5,Stainless Steel Thermal Water Bottle,Home & Kitchen,8.0,24.99,24.21,24.33,2,188,2,40,23.24
+6,Organic Cotton Running T-Shirt,Apparel,6.5,19.99,20.14,22.86,2,98,4,46,22.41
+7,Compact Cold Brew Coffee Maker,Home & Kitchen,15.0,39.99,42.19,39.35,1,172,3,15,37.94
+8,Ultra-Slim 7-in-1 USB-C Hub,Accessories,12.0,34.99,35.97,39.49,2,171,4,50,39.0
+9,Adjustable Aluminum Laptop Stand,Accessories,11.0,29.99,32.08,26.13,1,73,3,23,26.47
+10,Water-Resistant Outdoor Backpack,Travel,22.0,54.99,56.58,51.22,2,235,3,39,50.27
+1,Wireless Noise-Canceling Headphones,Electronics,45.0,99.99,104.95,100.62,2,57,2,42,100.24
+2,Smart Fitness Watch,Electronics,30.0,69.99,66.28,64.78,2,206,1,39,63.83
+3,Ergonomic Office Chair,Furniture,75.0,179.99,169.57,174.43,1,239,4,36,165.77
+4,RGB Mechanical Gaming Keyboard,Electronics,28.0,59.99,63.17,52.49,2,54,1,35,56.99
+5,Stainless Steel Thermal Water Bottle,Home & Kitchen,8.0,24.99,25.76,27.88,2,78,3,34,26.15
+6,Organic Cotton Running T-Shirt,Apparel,6.5,19.99,20.1,18.01,1,106,3,27,18.33
+7,Compact Cold Brew Coffee Maker,Home & Kitchen,15.0,39.99,39.73,44.44,3,155,4,77,47.68
+8,Ultra-Slim 7-in-1 USB-C Hub,Accessories,12.0,34.99,35.63,34.53,2,239,4,56,34.68
+9,Adjustable Aluminum Laptop Stand,Accessories,11.0,29.99,30.13,31.25,2,103,4,42,32.32
+10,Water-Resistant Outdoor Backpack,Travel,22.0,54.99,54.35,52.78,2,92,1,36,54.11
+1,Wireless Noise-Canceling Headphones,Electronics,45.0,99.99,89.99,109.45,3,103,3,60,113.75
+2,Smart Fitness Watch,Electronics,30.0,69.99,76.25,69.51,1,125,3,23,65.88
+3,Ergonomic Office Chair,Furniture,75.0,179.99,190.67,182.59,1,240,4,30,171.27
+4,RGB Mechanical Gaming Keyboard,Electronics,28.0,59.99,58.67,57.8,2,123,2,46,59.11
+5,Stainless Steel Thermal Water Bottle,Home & Kitchen,8.0,24.99,25.07,27.24,2,192,3,36,24.34
+6,Organic Cotton Running T-Shirt,Apparel,6.5,19.99,21.22,19.47,3,61,2,63,21.06
+7,Compact Cold Brew Coffee Maker,Home & Kitchen,15.0,39.99,41.08,41.4,2,174,4,48,42.99
+8,Ultra-Slim 7-in-1 USB-C Hub,Accessories,12.0,34.99,31.84,35.36,1,41,3,30,32.71
+9,Adjustable Aluminum Laptop Stand,Accessories,11.0,29.99,31.28,32.03,1,53,1,21,28.73
+10,Water-Resistant Outdoor Backpack,Travel,22.0,54.99,58.28,63.2,2,217,1,35,54.78
+1,Wireless Noise-Canceling Headphones,Electronics,45.0,99.99,96.6,110.3,3,29,3,55,117.36
+2,Smart Fitness Watch,Electronics,30.0,69.99,65.68,77.16,3,227,1,56,72.33
+3,Ergonomic Office Chair,Furniture,75.0,179.99,189.64,166.43,3,128,2,57,187.32
+4,RGB Mechanical Gaming Keyboard,Electronics,28.0,59.99,63.24,60.37,3,136,4,64,69.11
+5,Stainless Steel Thermal Water Bottle,Home & Kitchen,8.0,24.99,24.05,23.66,2,25,1,39,25.68
+6,Organic Cotton Running T-Shirt,Apparel,6.5,19.99,18.79,22.31,3,70,1,63,22.21
+7,Compact Cold Brew Coffee Maker,Home & Kitchen,15.0,39.99,39.46,34.17,3,164,1,51,41.37
+8,Ultra-Slim 7-in-1 USB-C Hub,Accessories,12.0,34.99,35.56,36.99,2,54,3,39,35.79
+9,Adjustable Aluminum Laptop Stand,Accessories,11.0,29.99,31.61,27.73,2,190,3,47,27.34
+10,Water-Resistant Outdoor Backpack,Travel,22.0,54.99,56.37,47.73,2,194,1,31,48.96
+1,Wireless Noise-Canceling Headphones,Electronics,45.0,99.99,92.51,91.97,3,216,3,60,96.4
+2,Smart Fitness Watch,Electronics,30.0,69.99,72.64,67.01,1,245,1,21,60.75
+3,Ergonomic Office Chair,Furniture,75.0,179.99,177.74,168.91,2,63,2,41,175.56
+4,RGB Mechanical Gaming Keyboard,Electronics,28.0,59.99,59.61,66.61,2,235,2,43,58.88
+5,Stainless Steel Thermal Water Bottle,Home & Kitchen,8.0,24.99,22.84,22.4,2,82,3,36,23.95
+6,Organic Cotton Running T-Shirt,Apparel,6.5,19.99,20.01,21.39,3,173,3,55,22.37
+7,Compact Cold Brew Coffee Maker,Home & Kitchen,15.0,39.99,37.9,42.64,2,152,4,55,43.51
+8,Ultra-Slim 7-in-1 USB-C Hub,Accessories,12.0,34.99,36.85,31.36,2,119,3,41,33.54
+9,Adjustable Aluminum Laptop Stand,Accessories,11.0,29.99,27.65,30.2,1,228,2,34,26.13
+10,Water-Resistant Outdoor Backpack,Travel,22.0,54.99,51.6,47.27,2,114,4,55,55.02
+1,Wireless Noise-Canceling Headphones,Electronics,45.0,99.99,100.51,106.03,2,108,2,42,102.41
+2,Smart Fitness Watch,Electronics,30.0,69.99,76.01,63.87,2,242,1,33,63.49
+3,Ergonomic Office Chair,Furniture,75.0,179.99,178.84,187.49,2,205,4,53,182.33
+4,RGB Mechanical Gaming Keyboard,Electronics,28.0,59.99,54.69,62.09,2,202,1,36,57.18
+5,Stainless Steel Thermal Water Bottle,Home & Kitchen,8.0,24.99,26.66,21.83,1,147,1,26,22.19
+6,Organic Cotton Running T-Shirt,Apparel,6.5,19.99,18.76,20.93,2,60,4,56,21.59
+7,Compact Cold Brew Coffee Maker,Home & Kitchen,15.0,39.99,41.96,43.18,2,187,4,45,41.12
+8,Ultra-Slim 7-in-1 USB-C Hub,Accessories,12.0,34.99,32.22,38.06,2,144,3,38,36.22
+9,Adjustable Aluminum Laptop Stand,Accessories,11.0,29.99,30.93,30.3,2,105,3,23,30.11
+10,Water-Resistant Outdoor Backpack,Travel,22.0,54.99,58.78,53.54,2,226,3,30,51.15
+1,Wireless Noise-Canceling Headphones,Electronics,45.0,99.99,102.16,101.88,1,211,3,23,90.76
+2,Smart Fitness Watch,Electronics,30.0,69.99,62.99,60.22,2,19,2,53,69.39
+3,Ergonomic Office Chair,Furniture,75.0,179.99,197.75,169.29,2,71,2,39,175.71
+4,RGB Mechanical Gaming Keyboard,Electronics,28.0,59.99,63.85,63.4,2,156,2,39,61.35
+5,Stainless Steel Thermal Water Bottle,Home & Kitchen,8.0,24.99,22.96,24.69,1,82,3,32,23.14
+6,Organic Cotton Running T-Shirt,Apparel,6.5,19.99,19.19,20.41,2,70,1,38,20.16
+7,Compact Cold Brew Coffee Maker,Home & Kitchen,15.0,39.99,41.78,43.5,1,226,1,22,36.93
+8,Ultra-Slim 7-in-1 USB-C Hub,Accessories,12.0,34.99,35.52,30.57,1,212,3,24,29.17
+9,Adjustable Aluminum Laptop Stand,Accessories,11.0,29.99,31.89,29.24,3,237,2,56,30.6
+10,Water-Resistant Outdoor Backpack,Travel,22.0,54.99,56.46,57.17,1,149,1,17,52.11
+1,Wireless Noise-Canceling Headphones,Electronics,45.0,99.99,101.29,94.8,2,54,1,31,97.91
+2,Smart Fitness Watch,Electronics,30.0,69.99,76.58,75.3,2,38,2,26,75.72
+3,Ergonomic Office Chair,Furniture,75.0,179.99,177.54,195.45,1,101,1,20,175.36
+4,RGB Mechanical Gaming Keyboard,Electronics,28.0,59.99,57.14,58.16,2,193,2,47,55.7
+5,Stainless Steel Thermal Water Bottle,Home & Kitchen,8.0,24.99,26.3,24.85,1,116,2,16,23.46
+6,Organic Cotton Running T-Shirt,Apparel,6.5,19.99,18.96,18.59,2,190,1,35,18.26
+7,Compact Cold Brew Coffee Maker,Home & Kitchen,15.0,39.99,36.89,38.95,2,63,3,38,39.57
+8,Ultra-Slim 7-in-1 USB-C Hub,Accessories,12.0,34.99,36.88,31.52,2,225,4,51,33.48
+9,Adjustable Aluminum Laptop Stand,Accessories,11.0,29.99,30.73,29.45,3,74,2,58,32.35
+10,Water-Resistant Outdoor Backpack,Travel,22.0,54.99,50.43,58.94,1,173,2,32,54.01
+1,Wireless Noise-Canceling Headphones,Electronics,45.0,99.99,106.39,85.4,2,43,3,34,94.15
+2,Smart Fitness Watch,Electronics,30.0,69.99,65.92,70.79,1,148,3,29,66.23
+3,Ergonomic Office Chair,Furniture,75.0,179.99,184.42,206.57,2,186,1,30,179.18
+4,RGB Mechanical Gaming Keyboard,Electronics,28.0,59.99,60.31,55.59,1,66,3,32,53.7
+5,Stainless Steel Thermal Water Bottle,Home & Kitchen,8.0,24.99,25.76,21.3,2,84,3,37,23.51
+6,Organic Cotton Running T-Shirt,Apparel,6.5,19.99,21.46,20.89,1,112,1,23,19.46
+7,Compact Cold Brew Coffee Maker,Home & Kitchen,15.0,39.99,39.87,41.15,1,65,4,29,39.52
+8,Ultra-Slim 7-in-1 USB-C Hub,Accessories,12.0,34.99,37.95,32.94,2,205,2,37,32.12
+9,Adjustable Aluminum Laptop Stand,Accessories,11.0,29.99,27.1,31.65,2,92,2,61,30.65
+10,Water-Resistant Outdoor Backpack,Travel,22.0,54.99,52.53,47.76,2,114,1,40,52.1
+1,Wireless Noise-Canceling Headphones,Electronics,45.0,99.99,108.87,113.46,1,102,4,30,104.47
+2,Smart Fitness Watch,Electronics,30.0,69.99,76.44,72.35,2,73,4,43,75.19
+3,Ergonomic Office Chair,Furniture,75.0,179.99,170.64,161.24,3,247,3,55,175.54
+4,RGB Mechanical Gaming Keyboard,Electronics,28.0,59.99,60.96,63.3,1,50,3,26,58.1
+5,Stainless Steel Thermal Water Bottle,Home & Kitchen,8.0,24.99,26.98,28.06,2,247,2,36,24.64
+6,Organic Cotton Running T-Shirt,Apparel,6.5,19.99,18.62,17.4,2,199,1,37,17.82
+7,Compact Cold Brew Coffee Maker,Home & Kitchen,15.0,39.99,37.46,44.06,1,22,3,31,40.92
+8,Ultra-Slim 7-in-1 USB-C Hub,Accessories,12.0,34.99,34.59,39.54,3,204,3,51,36.59
+9,Adjustable Aluminum Laptop Stand,Accessories,11.0,29.99,28.12,26.68,1,171,3,24,27.06
+10,Water-Resistant Outdoor Backpack,Travel,22.0,54.99,52.03,47.17,1,214,4,34,47.82
