@@ -265,3 +265,561 @@ OK
 # dynamic-price-optimization-engine
 dynamic-price-optimization-engine an AMLIS project to predict the optimize price
 >>>>>>> b07eca71d48b0a9c60611fb4dc9222b5ffcbb6cc
+
+# 🚀 Dynamic Price Optimization Engine
+
+## Technology Stack & Team Setup Requirements
+
+---
+
+## 1. 💻 Programming Languages
+
+| Technology            | Usage                                                |
+| --------------------- | ---------------------------------------------------- |
+| **Python 3.10–3.13**  | Backend, Machine Learning, database scripts, testing |
+| **JavaScript (ES6+)** | Client-side logic, API calls, charts                 |
+| **HTML5**             | Web pages and Jinja2 templates                       |
+| **CSS3**              | UI styling and responsive layouts                    |
+| **SQL**               | MySQL database queries and table management          |
+
+---
+
+## 2. ⚙️ Frameworks
+
+### Flask
+
+**Version:** 3.x
+
+Used for:
+
+* Backend web application
+* Routing
+* Authentication
+* REST APIs
+* Session management
+* Rendering HTML templates
+
+### Bootstrap
+
+**Version:** 5.3.3
+
+Used for:
+
+* Responsive UI
+* Navigation
+* Cards
+* Tables
+* Forms
+* Modals
+* Dashboard layout
+
+---
+
+## 3. 🐍 Python Libraries
+
+| Library              |                 Version | Purpose                      |
+| -------------------- | ----------------------: | ---------------------------- |
+| **Flask**            |                 ≥ 3.0.0 | Backend web framework        |
+| **Flask-SQLAlchemy** |                 ≥ 3.1.0 | Database ORM integration     |
+| **PyMySQL**          |                 ≥ 1.1.0 | MySQL connection             |
+| **cryptography**     |                ≥ 42.0.0 | MySQL authentication support |
+| **python-dotenv**    |                 ≥ 1.0.0 | `.env` configuration         |
+| **joblib**           |                 ≥ 1.3.0 | Saving/loading ML models     |
+| **Werkzeug**         |        Flask dependency | Password hashing & security  |
+| **unittest**         | Python standard library | Automated testing            |
+
+---
+
+## 4. 🤖 Machine Learning & Data Science
+
+### Machine Learning
+
+**Scikit-learn ≥ 1.4.0**
+
+Used for:
+
+* `RandomForestRegressor` → Main pricing model
+* `LinearRegression` → Baseline model
+* `StandardScaler` → Feature scaling
+* `train_test_split` → Model evaluation
+* `MAE`, `MSE`, `RMSE`, `R²` → Performance evaluation
+
+### Data Science
+
+| Library    |  Version | Purpose              |
+| ---------- | -------: | -------------------- |
+| **Pandas** |  ≥ 2.2.0 | Data processing      |
+| **NumPy**  | ≥ 1.26.0 | Numerical operations |
+| **Joblib** |  ≥ 1.3.0 | Model serialization  |
+
+---
+
+## 5. 🖥️ Backend
+
+### Flask
+
+Runs the application on:
+
+```text
+127.0.0.1:5000
+```
+
+### Jinja2
+
+Used for:
+
+* HTML template rendering
+* Template inheritance
+* Dynamic content
+* Conditions and loops
+
+### Flask Sessions
+
+Used for:
+
+* User authentication
+* Login sessions
+* User-specific access control
+
+---
+
+## 6. 🎨 Frontend
+
+| Technology       |  Version | Purpose                   |
+| ---------------- | -------: | ------------------------- |
+| **HTML5**        | Standard | Page structure            |
+| **CSS3**         | Standard | Custom styling            |
+| **Bootstrap**    |    5.3.3 | Responsive UI             |
+| **JavaScript**   |     ES6+ | Client-side functionality |
+| **Chart.js**     |    4.4.1 | Data visualization        |
+| **Font Awesome** |    6.5.1 | Icons                     |
+
+### Charts implemented
+
+* Sales trends
+* Price comparison
+* Category distribution
+
+Frontend libraries are loaded through **CDN**, so **Node.js/npm is NOT required**.
+
+---
+
+## 7. 🗄️ Database
+
+### MySQL 8.0
+
+Database:
+
+```text
+dynamic_price_db
+```
+
+Main tables:
+
+```text
+users
+products
+sales
+market_data
+price_recommendations
+```
+
+### SQLAlchemy
+
+Used as the ORM layer between Python and MySQL.
+
+### Connection
+
+```text
+MySQL → Port 3306
+Flask → Port 5000
+```
+
+---
+
+## 8. 🔌 API
+
+The project contains internal REST APIs using Flask.
+
+Examples:
+
+```text
+GET /api/chart/sales-trends
+GET /api/chart/price-comparison
+GET /api/chart/category-distribution
+```
+
+The frontend uses the browser's native:
+
+```text
+Fetch API
+```
+
+to communicate with these endpoints.
+
+---
+
+# 🛠️ 9. Development Tools
+
+| Tool                      | Requirement           |
+| ------------------------- | --------------------- |
+| **Git**                   | ✅ Required            |
+| **Python**                | ✅ Required            |
+| **MySQL Server 8.0**      | ✅ Required            |
+| **VS Code**               | Recommended           |
+| **PowerShell / Terminal** | Required for commands |
+| **MySQL Workbench**       | Optional              |
+
+---
+
+# 📦 10. Package Manager
+
+### pip
+
+Python dependencies are installed using:
+
+```text
+requirements.txt
+```
+
+Example:
+
+```powershell
+pip install -r requirements.txt
+```
+
+### Node.js / npm
+
+❌ **NOT REQUIRED**
+
+There is no:
+
+```text
+package.json
+```
+
+and the project does not use a Node.js build system.
+
+---
+
+# 🧪 11. Python Virtual Environment
+
+The project uses:
+
+```text
+.venv/
+```
+
+Purpose:
+
+> Keeps project dependencies isolated from the system Python installation.
+
+Create:
+
+```powershell
+python -m venv .venv
+```
+
+Activate on Windows:
+
+```powershell
+.venv\Scripts\activate
+```
+
+Install dependencies:
+
+```powershell
+pip install -r requirements.txt
+```
+
+---
+
+# 🔐 12. Environment Configuration
+
+The project uses:
+
+```text
+.env
+```
+
+for local configuration such as:
+
+```text
+MYSQL_HOST
+MYSQL_PORT
+MYSQL_USER
+MYSQL_PASSWORD
+MYSQL_DB
+SECRET_KEY
+```
+
+⚠️ **`.env` should not be committed to GitHub if it contains real passwords or secrets.**
+
+---
+
+# 🤖 13. Machine Learning Files
+
+### Trained model
+
+```text
+models/price_model.pkl
+```
+
+Contains the trained:
+
+```text
+Random Forest Regressor
++
+StandardScaler
+```
+
+The pre-trained model allows the application to make predictions without retraining every time.
+
+### Metrics
+
+```text
+models/metrics.json
+```
+
+Contains model evaluation information such as:
+
+```text
+R²
+MAE
+RMSE
+Feature Importance
+```
+
+### Dataset
+
+```text
+data/sample_data.csv
+```
+
+Contains the project's baseline training data.
+
+---
+
+# 🗂️ 14. Important Project Components
+
+```text
+Dynamic Price Optimization Engine
+│
+├── app.py
+│   └── Flask application
+│
+├── database/
+│   ├── db.py
+│   ├── init_mysql.py
+│   └── seed_data.py
+│
+├── ml/
+│   ├── train_model.py
+│   ├── predict_price.py
+│   └── generate_sample_data.py
+│
+├── models/
+│   ├── price_model.pkl
+│   └── metrics.json
+│
+├── data/
+│   └── sample_data.csv
+│
+├── templates/
+│   └── HTML/Jinja pages
+│
+├── static/
+│   ├── css/
+│   └── js/
+│
+├── requirements.txt
+└── .env
+```
+
+---
+
+# 👥 15. REQUIRED SOFTWARE FOR TEAMMATES
+
+## 🔴 MUST INSTALL
+
+### 1. Python
+
+```text
+Python 3.10 – 3.13
+```
+
+Required for the entire backend and ML system.
+
+### 2. MySQL Server
+
+```text
+MySQL 8.0
+```
+
+Required because the application uses:
+
+```text
+dynamic_price_db
+```
+
+and communicates through:
+
+```text
+localhost:3306
+```
+
+### 3. Git
+
+Required to:
+
+* Clone the repository
+* Pull updates
+* Create branches
+* Push changes
+
+---
+
+## 🟢 RECOMMENDED
+
+### Visual Studio Code
+
+Recommended for:
+
+* Editing code
+* Running the project
+* Using the integrated terminal
+* Debugging
+
+### MySQL Workbench
+
+Useful for:
+
+* Viewing database tables
+* Checking records
+* Running SQL queries
+
+---
+
+## ⚪ NOT REQUIRED
+
+### Node.js / npm
+
+```text
+NOT REQUIRED
+```
+
+The project does not use Node.js or npm.
+
+### React
+
+```text
+NOT USED
+```
+
+The frontend uses:
+
+```text
+HTML
+CSS
+JavaScript
+Bootstrap
+Chart.js
+```
+
+---
+
+# 🚀 16. QUICK TEAM SETUP
+
+After cloning the GitHub repository:
+
+```powershell
+git clone <YOUR-GITHUB-REPOSITORY>
+cd <PROJECT-FOLDER>
+```
+
+Create virtual environment:
+
+```powershell
+python -m venv .venv
+```
+
+Activate:
+
+```powershell
+.venv\Scripts\activate
+```
+
+Install Python dependencies:
+
+```powershell
+pip install -r requirements.txt
+```
+
+Make sure MySQL 8.0 is running on:
+
+```text
+localhost:3306
+```
+
+Then follow the project's existing database initialization instructions.
+
+Finally run:
+
+```powershell
+python app.py
+```
+
+Open:
+
+```text
+http://127.0.0.1:5000
+```
+
+---
+
+# ✅ FINAL TEAM CHECKLIST
+
+### Every teammate needs:
+
+* [ ] Python 3.10–3.13
+* [ ] Git
+* [ ] MySQL 8.0
+* [ ] Project repository
+* [ ] Python virtual environment
+* [ ] `requirements.txt` dependencies
+* [ ] Correct local `.env` configuration
+
+### Recommended:
+
+* [ ] VS Code
+* [ ] MySQL Workbench
+
+### Not required:
+
+* ❌ Node.js
+* ❌ npm
+* ❌ React
+
+---
+
+## 🔥 PROJECT STACK AT A GLANCE
+
+```text
+                 DYNAMIC PRICE OPTIMIZATION ENGINE
+                              │
+             ┌────────────────┼────────────────┐
+             │                │                │
+          FRONTEND          BACKEND             ML
+             │                │                │
+       HTML/CSS/JS          Flask          Scikit-learn
+       Bootstrap           Jinja2          Random Forest
+       Chart.js            REST API        Pandas
+       Font Awesome        SQLAlchemy      NumPy
+             │                │                │
+             └────────────────┼────────────────┘
+                              │
+                           MySQL 8.0
+                              │
+                       dynamic_price_db
+```
+
