@@ -14,7 +14,6 @@ from ml.predict_price import predict_optimal_price
 
 app = Flask(__name__)
 app.config.from_object(Config)
-
 # Initialize database with app
 db.init_app(app)
 
